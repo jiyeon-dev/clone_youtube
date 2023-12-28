@@ -1,9 +1,22 @@
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { HomeLayout } from './layouts';
+import { Base } from './pages';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <HomeLayout />,
+    children: [
+      {
+        index: true,
+        element: <Base />,
+      },
+    ],
+  },
+]);
+
 function App() {
-  return (
-    <main>
-      <h1>youtube</h1>
-    </main>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

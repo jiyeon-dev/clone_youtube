@@ -1,11 +1,21 @@
 import { CiMenuBurger } from 'react-icons/ci';
 import logoImg from '../../assets/logo.svg';
 import { LogoWrapper } from '../../assets/wrappers/Header';
+import { useGlobalContext } from '../../context';
 
 const Logo = () => {
+  const { isNavOpen, setIsNavOpen } = useGlobalContext();
+  const handleClick = () => {
+    setIsNavOpen(!isNavOpen);
+  };
+
   return (
     <LogoWrapper>
-      <button type="button" className="btn nav-toggle-btn">
+      <button
+        type="button"
+        className="btn nav-toggle-btn"
+        onClick={() => handleClick()}
+      >
         <CiMenuBurger size={20} />
       </button>
 

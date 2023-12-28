@@ -9,6 +9,11 @@
 :root {
   --black: #222;
   --white: #fff;
+
+  /* width & height */
+  --header-height: 56px;
+  --nav-width: 240px;
+  --mini-nav-width: 72px;
 }
 
 body {
@@ -19,6 +24,7 @@ body {
 .btn {
   cursor: pointer;
   color: #030303;
-  background-color: var(--white);
+  /* background-color: var(--white); */
+  background-color: inherit;
   border: transparent;
 }

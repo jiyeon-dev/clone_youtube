@@ -9,6 +9,7 @@ const wrapperStyle = css`
   display: flex;
   flex-direction: column;
   background-color: white;
+  z-index: 2001; // chips 보다 1 위
 `;
 
 const aStyle = css`

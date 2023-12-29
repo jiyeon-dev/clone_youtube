@@ -1,17 +1,11 @@
-/// <reference types="vite-plugin-svgr/client" />
-import { useGlobalContext } from '../context';
+import Chips from '../components/Chips';
 
 const Base = () => {
-  const { isNavOpen } = useGlobalContext();
-
   return (
-    <div
-      style={{
-        marginLeft: isNavOpen ? 'var(--nav-width)' : 'var(--mini-nav-width)',
-      }}
-    >
-      <h2>base page</h2>
-    </div>
+    <>
+      <Chips />
+    </>
   );
 };
+
 export default Base;

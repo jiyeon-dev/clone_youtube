@@ -28,3 +28,7 @@ body {
   background-color: inherit;
   border: transparent;
 }
+
+.none {
+  display: none !important;
+}

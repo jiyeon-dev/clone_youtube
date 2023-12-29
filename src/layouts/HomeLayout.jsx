@@ -14,7 +14,13 @@ const HomeLayout = () => {
       {/* left side bar */}
       {isNavOpen ? <Sidebar /> : <MiniSidebar />}
       {/* body */}
-      <Outlet />
+      <div
+        style={{
+          marginLeft: isNavOpen ? 'var(--nav-width)' : 'var(--mini-nav-width)',
+        }}
+      >
+        <Outlet />
+      </div>
     </>
   );
 };

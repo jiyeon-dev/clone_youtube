@@ -5,7 +5,8 @@ export const ChipsWrapper = styled.div`
   display: flex;
   position: fixed;
   justify-content: center;
-  height: 56px;
+  background-color: var(--white);
+  /* height: 56px; */
 `;
 
 export const ChipsContent = styled.div`

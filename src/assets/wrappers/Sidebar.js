@@ -8,7 +8,7 @@ const wrapperStyle = css`
   padding: 0 4px;
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: var(--white);
   z-index: 2001; // chips 보다 1 위
 `;
 

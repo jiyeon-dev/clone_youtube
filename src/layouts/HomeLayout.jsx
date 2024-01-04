@@ -17,6 +17,8 @@ const HomeLayout = () => {
       <div
         style={{
           marginLeft: isNavOpen ? 'var(--nav-width)' : 'var(--mini-nav-width)',
+          marginTop: 'var(--header-height)',
+          display: 'flex',
         }}
       >
         <Outlet />

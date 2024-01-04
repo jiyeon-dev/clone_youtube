@@ -2,11 +2,18 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.header`
   height: 56px;
+  width: 100%;
   padding: 0 16px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  background-color: var(--white);
+
+  // make sticky header
+  position: fixed;
+  top: 0;
+  z-index: 1;
 `;
 
 // start - logo wrapper

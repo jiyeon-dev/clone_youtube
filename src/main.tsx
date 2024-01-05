@@ -8,10 +8,11 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 const queryClient = new QueryClient();
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <AppProvider>
-      <QueryClientProvider client={queryClient}></QueryClientProvider>
+  // <React.StrictMode>
+  <AppProvider>
+    <QueryClientProvider client={queryClient}>
       <App />
-    </AppProvider>
-  </React.StrictMode>,
+    </QueryClientProvider>
+  </AppProvider>,
+  // </React.StrictMode>,
 );

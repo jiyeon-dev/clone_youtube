@@ -97,6 +97,12 @@ export const CardInfo = styled.div`
     border-radius: 50%;
     margin-right: 10px;
     background-color: green; // test color
+
+    img {
+      width: 100%;
+      /* height: 100%; */
+      border-radius: 50%;
+    }
   }
 
   .details {
@@ -123,6 +129,7 @@ export const CardInfo = styled.div`
       align-items: center;
       font-size: 14px;
       color: #606060;
+      margin-bottom: 2px;
     }
 
     .channel-name svg {
@@ -136,9 +143,35 @@ export const CardInfo = styled.div`
       font-size: 14px;
     }
 
-    .video-upload-date:before {
-      content: '•';
-      margin: 0 4px;
+    .metadata-line:has(.video-views) {
+      .video-upload-date:before {
+        content: '•';
+        margin: 0 4px;
+      }
     }
   }
+`;
+
+export const Badge = styled.div`
+  display: flex;
+  align-items: center;
+  margin: 4px 4px 0 0;
+
+  div {
+    display: flex;
+    align-items: center;
+    background-color: rgba(204, 0, 0, 0.9);
+    color: var(--white);
+    border-radius: 2px;
+    padding: 3px 4px;
+    font-size: 11px;
+    font-weight: 500;
+
+    span {
+      margin-left: 4px;
+    }
+  }
+  /* &:after {
+    content: '실시간';
+  } */
 `;

@@ -1,42 +1,50 @@
 import {
-  ThumbnailCardsWrapper as CardsWrapper,
   ThumbnailCard as Card,
   Thumbnail,
   CardInfo,
 } from '../../assets/wrappers/ThumbnailCard';
 import { GoCheckCircleFill } from 'react-icons/go';
+import { formatDuration } from '../../utils/formatter';
+import ThumbnailCardMetaData from './ThumbnailCardMetaData';
 
-const ThumbnailCard = () => {
+const ThumbnailCard = ({ item }) => {
+  const snippet = item.snippet;
+  const thumbnail = snippet.thumbnails;
+  const details = item?.contentDetails;
+  const statistics = item?.statistics;
+  const channel = item?.channelDetails;
+  const isLive = snippet?.liveBroadcastContent === 'live' ? true : false; // 실시간 라이브 여부
+
   return (
-    <Card data-video-id="YOUTUBE_VIDEO_ID_1">
+    <Card data-video-id={item.etag}>
       <Thumbnail>
-        <img
-          src="https://i4.ytimg.com/vi/x_i9GBnyxA4/0.jpg"
-          alt="Video Thumbnail 1"
-        />
+        <img src={thumbnail.medium.url} alt={thumbnail.title} />
         <div className="overlay"></div>
-        <div className="progress-bar">
+        <div className="progress-bar none">
           <div className="progress" />
         </div>
-        <div className="video-duration">23:00</div>
+        {!isLive && (
+          <div className="video-duration">
+            {formatDuration(details?.duration)}
+          </div>
+        )}
       </Thumbnail>
       <CardInfo>
         <a className="avatar">
-          {/* <img src="channel_avatar1.jpg" alt="Channel Avatar 1" /> */}
+          <img src={channel?.thumbnails.default.url} alt={channel?.title} />
         </a>
         <div className="details">
-          <a className="video-title">
-            ASMR | Build Disney+ with React JS (Firebase + Styled Components +
-            Redux)
-          </a>
+          <a className="video-title">{snippet.title}</a>
           <div className="channel-name">
-            <span>Channel Name</span>
-            <GoCheckCircleFill />
+            <span>{snippet.channelTitle}</span>
+            <GoCheckCircleFill className="none" />
           </div>
-          <div className="metadata-line">
-            <div className="video-views">조회수 37만회</div>
-            <span className="video-upload-date">2년 전</span>
-          </div>
+          <ThumbnailCardMetaData
+            snippet={snippet}
+            statistics={statistics}
+            isLive={isLive}
+            liveStreamingDetails={item.liveStreamingDetails}
+          />
         </div>
       </CardInfo>
     </Card>

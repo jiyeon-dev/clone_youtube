@@ -20,18 +20,7 @@ const useInfiniteScroll = (
   onIntersect: IntersectHandler,
   options?: InfiniteScrollProps,
 ) => {
-  const ref = useRef<HTMLDivElement>(null);
-  const opt = Object.assign(
-    {
-      root: null,
-      target: ref,
-      threshold: 1,
-      rootMargin: '20px',
-      endPoint: 1,
-    },
-    options,
-  );
-
+  const ref = useRef<HTMLDivElement>(null); // target
   const callback = useCallback(
     (entries: IntersectionObserverEntry[], observer: IntersectionObserver) => {
       entries.forEach((entry) => {
@@ -42,20 +31,11 @@ const useInfiniteScroll = (
   );
 
   useEffect(() => {
-    if (!opt.target || !opt.target.current) return;
-
-    // 다시 관측할 마지막 요소
-    const newLastChild: Element =
-      opt.target.current.children[
-        opt.target.current.children.length - opt.endPoint
-      ];
-
-    if (newLastChild) {
-      const observer = new IntersectionObserver(callback, opt);
-      observer.observe(newLastChild);
-      return () => observer.disconnect();
-    }
-  }, [opt, callback]);
+    if (!ref.current) return;
+    const observer = new IntersectionObserver(callback, options);
+    observer.observe(ref.current);
+    return () => observer.disconnect(); // unmount 될때 호출
+  }, [ref, options, callback]);
 
   return ref;
 };

@@ -45,7 +45,7 @@ $ npm run dev
 [x] Youtube API 키 발급
 [ ] 메인 페이지 Chips - Width 에 따른 화살표 생성
 [x] infinite scroll - `IntersectionObserver` 사용
-[ ] 로딩 스켈레톤 만들기
+[X] 로딩 스켈레톤 만들기
 [ ] 에러 페이지 만들기
 
 ## 관련 참고 문서

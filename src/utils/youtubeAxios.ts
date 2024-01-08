@@ -28,6 +28,7 @@ export const getVideoList = async <YVideoDataList>(
   params.type = 'video';
   params.maxResults = 20;
 
+  console.log(params);
   // https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAsG1v5fy1DKmwBQ9HwnkydJOdmOzP8mbI&pageToken=&part=snippet&type=video&maxResults=20
   const response = await client.get<YVideoDataList>(makeURL('/search'), {
     params,

@@ -15,7 +15,7 @@ import CardSkeleton from './CardSkeleton';
 const useFetchVideoList = (nextPageToken) =>
   useInfiniteQuery({
     initialPageParam: 0,
-    queryKey: ['videoList'],
+    queryKey: ['base-videoList'],
     queryFn: async () => {
       const response = await getVideoList({ pageToken: nextPageToken });
 

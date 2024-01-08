@@ -20,6 +20,7 @@ export const Wrapper = styled.header`
 export const LogoWrapper = styled.div`
   display: flex;
   align-items: center;
+  min-width: 180px;
 
   button.nav-toggle-btn {
     width: 40px;
@@ -85,7 +86,7 @@ export const SearchWrapper = styled.div`
   }
 
   // 검색 input
-  input#searchTerm {
+  input#searchQuery {
     border: none;
     outline: none;
     padding: 0;

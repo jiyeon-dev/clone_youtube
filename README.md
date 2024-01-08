@@ -42,11 +42,17 @@ $ npm run dev
 
 ## 진행 상황
 
-[x] Youtube API 키 발급
-[ ] 메인 페이지 Chips - Width 에 따른 화살표 생성
-[x] infinite scroll - `IntersectionObserver` 사용
-[X] 로딩 스켈레톤 만들기
-[ ] 에러 페이지 만들기
+[x] Youtube API 키 발급  
+[ ] 메인 페이지 Chips - Width 에 따른 화살표 생성  
+[x] infinite scroll - `IntersectionObserver` 사용  
+[x] 로딩 스켈레톤 만들기  
+[ ] Card 에 hover 시 비디오 재생  
+[ ] 에러 페이지 만들기  
+[x] 검색하면 results 페이지로 이동  
+[ ] Result 페이지 생성  
+[ ] Video 실행 페이지 생성
+
+- `useInfiniteQuery` 가 테스트시 저장하면 re-render 되는데 현재 page 를 기억하고 있어 그만큼 재호출하게 되다보니 youtube api 호출이 많이 되어 쉽게 제한이 걸림. re-render 될때 방지하는 방법이 있을까??
 
 ## 관련 참고 문서
 

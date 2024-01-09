@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const CardSkeleton = () => {
+const Skeleton = () => {
   return (
     <SkeletonCard>
       <div className="thumbnail"></div>
@@ -15,7 +15,7 @@ const CardSkeleton = () => {
     </SkeletonCard>
   );
 };
-export default CardSkeleton;
+export default Skeleton;
 
 const SkeletonCard = styled.div`
   position: relative;

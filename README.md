@@ -10,6 +10,7 @@
   - jsx 를 사용 중이며, utils와 같은 모듈 js 파일에만 ts로 되어 있음.
 - Styled Component
 - React Icons
+- Youtube Api
 
 ## 프로젝트 실행하기
 
@@ -69,6 +70,16 @@ $ npm run dev
 - 내가 만든 useInfiniteScroll 코드가 문제임. 임시방편으로 `react-intersection-observer`를 사용하도록 바꿔 해결함.
 - delay 를 주는 방법은 안되는지 확인 필요.
 
+> [ IFrame Player API 문제 ]
+>
+> 1. 오류 발생 `Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('<URL>') does not match the recipient window's origin ('<URL>').`
+> 2. `<div className="overlay" ref={videoRef} />`로 한 경우 mouseover, mouseout 이벤트가 제대로 감지되지 않음.
+
+- 오류가 발생한다고 youtube iframe 이 실행되지 않는 건 아니므로 일단 무시함. 구글링 해봤지만 딱히 방법을 찾지 못함.
+- div 에 YT.Player를 설정한 경우, `div` 가 `iframe` 으로 변경되기 때문에 이벤트 감지가 제대로 되지 않음. 그렇다고, `Thumbnail`태그에 하면 YT.Player를 저장한 `player` 객체가 null 로 표시되어 제대로 되지 않음.
+- 그래서, `iframe` 를 직접 만들고, src 에 playerVars 값들을 설정해서 해결하였다. (iframe 으로 한 경우 playerVars 값을 인식하지 못함.)
+- 하지만, Youtube Iframe API 불러오는 속도가 너무 느리다. 방법이 필요하다. 그래서 검색 결과 목록(Result)페이지에만 먼저 적용시킴.
+
 ## 관련 참고 문서
 
 - IntersectionObserver 사용 방법 - [링크](https://tech.kakaoenterprise.com/149)
@@ -76,5 +87,6 @@ $ npm run dev
 - Youtube Api
   - https://developers.google.com/youtube/v3/docs/
   - [search.list](https://developers.google.com/youtube/v3/docs/search/list?hl=ko&apix_params=%7B%22part%22%3A%5B%22snippet%22%5D%2C%22maxResults%22%3A10%7D#apps-script)
+- Youtube IFrame Player API - [링크](https://developers.google.com/youtube/iframe_api_reference?hl=ko#Getting_Started)
 - ReactQuery (Tanstack) - [링크](https://tanstack.com/query/v4/docs/react/guides/infinite-queries)
   - ReactQuery 관련 설명 한글 블로그 - [링크](https://mycodings.fly.dev/blog/2023-09-24-react-query-paginated-query-and-infinite-query#1-%ED%8E%98%EC%9D%B4%EC%A7%80%EB%84%A4%EC%9D%B4%EC%85%98pagination-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)

@@ -6,6 +6,7 @@ import {
 } from '../../../assets/wrappers/Cards';
 import { useFetchVideoList } from '../../../utils/query';
 import WideCard from './WideCard';
+import { useGlobalContext } from '../../../context';
 
 const WideCardList = ({ searchQuery, queryKey }) => {
   const { ref, inView } = useInView({
@@ -32,6 +33,15 @@ const WideCardList = ({ searchQuery, queryKey }) => {
       });
     } else return [];
   }, [data]);
+
+  // youtube api 초기화
+  const { initializeYouTubeApi } = useGlobalContext();
+  useEffect(() => {
+    const youtubeApi = async () => {
+      await initializeYouTubeApi();
+    };
+    youtubeApi();
+  }, []);
 
   return (
     <CardsWrapper>

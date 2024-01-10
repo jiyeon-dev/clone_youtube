@@ -36,8 +36,15 @@ export const Thumbnail = styled.div`
     transition: opacity 0.3s;
   }
 
-  &:hover .overlay {
-    opacity: 1;
+  &:hover {
+    border-radius: 0 !important;
+    .overlay {
+      opacity: 1;
+    }
+
+    .video-duration {
+      display: none;
+    }
   }
 
   .progress-bar {

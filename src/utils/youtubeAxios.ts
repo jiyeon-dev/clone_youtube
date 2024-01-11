@@ -58,7 +58,7 @@ export const getVideoInfoList = async (params: SearchOption) => {
  * @returns 비디오 목록
  */
 export const getChannelDetailList = async (params: SearchOption) => {
-  params.part = 'snippet';
+  params.part = 'snippet,contentDetails,statistics';
 
   const response = await client.get(makeURL('/channels'), {
     params,

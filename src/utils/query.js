@@ -56,3 +56,35 @@ export const useFetchVideoList = (queryKey, keyword) => {
     },
   });
 };
+
+/**
+ * 데이터 바인딩
+ * @param {*} item
+ * @returns
+ */
+export const bindVideoInfo = (item) => {
+  return {
+    id: item.id,
+    title: item?.snippet?.title,
+    thumbnail: {
+      title: item?.snippet?.thumbnails?.title,
+      url: item?.snippet?.thumbnails?.medium?.url || '',
+    },
+    duration: item?.contentDetails?.duration || '',
+    publishedAt: item?.snippet?.publishedAt || '',
+    channel: {
+      id: item?.snippet?.channelId,
+      title: item?.snippet?.channelTitle || '',
+      img: item?.channelDetails?.snippet?.thumbnails?.default?.url || '',
+      customUrl: item?.channelDetails?.snippet?.customUrl,
+      description: item?.channelDetails?.snippet?.description,
+      subscriberCount: item?.channelDetails?.statistics?.subscriberCount || '0',
+    },
+    description: item?.snippet?.description || '',
+    commentCount: item?.statistics?.commentCount,
+    favoriteCount: item?.statistics?.favoriteCount,
+    likeCount: item?.statistics?.likeCount,
+    viewCount: item?.statistics?.viewCount,
+    disLikeCount: item?.statistics?.disLikeCount,
+  };
+};

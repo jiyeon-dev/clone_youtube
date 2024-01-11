@@ -42,9 +42,22 @@ export const formatViewCount = (count: number): string => {
 };
 
 /**
+ * 숫자에 3자리마다 콤마 생성
+ * @param {number} num 숫자
+ * @returns 문자
+ */
+export const formatComma = (num: number): string => {
+  try {
+    return Number(num).toLocaleString('en-US');
+  } catch (e) {
+    return '잘못된 형식입니다.';
+  }
+};
+
+/**
  * 방금전, X일, X달, X년 전 등으로 형식 변경
  *
- * @param {Date} date 예) "2006-06-12T12:03:23Z"
+ * @param {Date} dt 예) "2006-06-12T12:03:23Z"
  * @returns X일, X달, X년 전
  */
 export const formatDate = (dt: Date): string => {
@@ -72,4 +85,19 @@ export const formatDate = (dt: Date): string => {
   } else {
     return '방금 전';
   }
+};
+
+/**
+ * Date 형식을 yyyy. mm. dd. 로 변경
+ * @param {Date} date 예) "2006-06-12T12:03:23Z"
+ * @returns yyyy. mm. dd.
+ */
+export const formatDate2 = (dt: Date): string => {
+  const datetime: Date = new Date(dt);
+
+  const y = datetime.getFullYear();
+  const m = datetime.getMonth() + 1;
+  const d = datetime.getDate();
+
+  return `${y}. ${m}. ${d}.`;
 };

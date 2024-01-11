@@ -47,11 +47,13 @@ $ npm run dev
 - [ ] 메인 페이지 Chips - Width 에 따른 화살표 생성
 - [x] infinite scroll - `IntersectionObserver` 사용
 - [x] 로딩 스켈레톤 만들기
-- [ ] Card 에 hover 시 비디오 재생
+- [x] Card 에 hover 시 비디오 재생
 - [ ] 에러 페이지 만들기
 - [x] 검색하면 results 페이지로 이동
 - [x] Result 페이지 생성
-- [ ] Video 실행 페이지 생성
+- [x] Video 상세 페이지 - 비디오 및 비디오 상세 정보 표시
+- [ ] Video 상세 페이지 - 우측 관련 목록 생성
+- [ ] Video 상세 페이지 - 댓글
 
 ## 개발 중 고민 사항
 
@@ -74,6 +76,7 @@ $ npm run dev
 >
 > 1. 오류 발생 `Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('<URL>') does not match the recipient window's origin ('<URL>').`
 > 2. `<div className="overlay" ref={videoRef} />`로 한 경우 mouseover, mouseout 이벤트가 제대로 감지되지 않음.
+> 3. 보안 정책상 autoplay 옵션을 사용하려면 mute=1(음소거) 되어있어야 함. -> 즉, 음소거 되어 있지 않으면 자동 재생 불가능
 
 - 오류가 발생한다고 youtube iframe 이 실행되지 않는 건 아니므로 일단 무시함. 구글링 해봤지만 딱히 방법을 찾지 못함.
 - div 에 YT.Player를 설정한 경우, `div` 가 `iframe` 으로 변경되기 때문에 이벤트 감지가 제대로 되지 않음. 그렇다고, `Thumbnail`태그에 하면 YT.Player를 저장한 `player` 객체가 null 로 표시되어 제대로 되지 않음.

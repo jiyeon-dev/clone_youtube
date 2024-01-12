@@ -86,5 +86,7 @@ export const bindVideoInfo = (item) => {
     likeCount: item?.statistics?.likeCount,
     viewCount: item?.statistics?.viewCount,
     disLikeCount: item?.statistics?.disLikeCount,
+    isLive: item?.snippet?.liveBroadcastContent === 'live' ? true : false, // 실시간 동영상 여부
+    concurrentViewers: item?.liveStreamingDetails?.concurrentViewers || 0, // 실시간 시청자 수
   };
 };

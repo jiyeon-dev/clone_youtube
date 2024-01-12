@@ -4,6 +4,7 @@ import { useGlobalContext } from '../context';
 import { useRef, useEffect, useState } from 'react';
 import { getChannelDetailList, getVideoInfoList } from '../utils/youtubeAxios';
 import WatchPrimary from '../components/Watch/Primary';
+import WatchSecondary from '../components/Watch/Secondary';
 
 const Watch = () => {
   const [video, setVideo] = useState({});
@@ -47,7 +48,7 @@ const Watch = () => {
   return (
     <Container data-video-id={videoId}>
       <WatchPrimary item={video} />
-      <div className="secondary">secondary</div>
+      <WatchSecondary videoId={videoId} item={video} />
     </Container>
   );
 };
@@ -60,13 +61,4 @@ const Container = styled.div`
 
   min-width: 1012px;
   max-width: 1754px;
-
-  .secondary {
-    padding-top: 24px;
-    padding-right: 24px;
-    width: 402px;
-    min-width: 300px;
-
-    position: relative;
-  }
 `;

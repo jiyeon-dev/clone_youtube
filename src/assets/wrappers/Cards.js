@@ -299,3 +299,72 @@ export const WideCardInfo = styled.div`
     -webkit-box-orient: vertical;
   }
 `;
+
+/**
+ * Compact Card
+ */
+export const CompactCardThumbnail = styled.div`
+  position: relative;
+  overflow: hidden;
+  margin-right: 8px;
+  height: 94px;
+  width: 168px;
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  .video-duration {
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 3px 4px;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+`;
+
+export const CompactCardInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  flex: 1;
+  flex-basis: 1e-9px;
+
+  .video-title {
+    margin: 0 0 4px 0;
+    font-size: 14px;
+    font-weight: 500;
+    /* line-height: 1.6rem; */
+    color: #0f0f0f;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .metadata-line,
+  .channel-name {
+    display: flex;
+  }
+
+  .channel-name,
+  .video-views,
+  .video-upload-date {
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+  }
+
+  .metadata-line:has(.video-views) {
+    .video-upload-date:before {
+      content: '•';
+      margin: 0 4px;
+    }
+  }
+`;

@@ -7,15 +7,19 @@ import {
 import { useFetchVideoList } from '../../../utils/query';
 import VerticalCard from './VerticalCard';
 import Skeleton from './Skeleton';
+import { useSearchContext } from '../../../context';
 
 const VerticalCardList = ({ queryKey }) => {
+  const { searchOption } = useSearchContext();
   const { ref, inView } = useInView({
     threshold: 0,
     delay: 100,
   });
 
-  const { data, hasNextPage, isFetching, fetchNextPage } =
-    useFetchVideoList(queryKey);
+  const { data, hasNextPage, isFetching, fetchNextPage } = useFetchVideoList(
+    queryKey,
+    searchOption,
+  );
 
   useEffect(() => {
     // inView가 true 일때만 실행

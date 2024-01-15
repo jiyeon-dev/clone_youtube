@@ -45,6 +45,7 @@ $ npm run dev
 
 - [x] Youtube API 키 발급
 - [x] 메인 페이지 Chips - Width 에 따른 화살표 생성
+- [x] 메인 페이지 Chips - chip 클릭 시 해당 topic 으로 재 조회 (`감상한 동영상`은 어떻게 조회 가능한지 api 확인 필요.)
 - [x] infinite scroll - `IntersectionObserver` 사용
 - [x] 로딩 스켈레톤 만들기
 - [x] Card 에 hover 시 비디오 재생

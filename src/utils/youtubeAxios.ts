@@ -27,6 +27,8 @@ export const getVideoList = async <YVideoDataList>(
   params.part = 'snippet';
   params.type = 'video';
   params.maxResults = 20;
+  params.regionCode = 'kr';
+  params.videoSyndicated = true;
 
   console.log(params);
   const response = await client.get<YVideoDataList>(makeURL('/search'), {

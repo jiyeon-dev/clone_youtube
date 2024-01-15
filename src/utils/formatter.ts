@@ -101,3 +101,17 @@ export const formatDate2 = (dt: Date): string => {
 
   return `${y}. ${m}. ${d}.`;
 };
+
+/**
+ * X 일전 날짜를 RFC 3339 형식(1970-01-01T00:00:00Z)으로 반환
+ * 최근 업로드된 동영상 조회 시 사용
+ *
+ * @param num 일
+ * @returns 1970-01-01T00:00:00Z
+ */
+export const getISODate = (num: number): string => {
+  if (!num) return '잘못된 형식입니다.';
+  const today = new Date();
+  const newDate = new Date(today.setDate(today.getDate() + num));
+  return new Date(newDate).toISOString();
+};

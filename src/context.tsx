@@ -39,3 +39,27 @@ export const AppProvider = ({ children }: { children: React.ReactNode }) => {
 };
 
 export const useGlobalContext = () => useContext(AppContext);
+
+/**
+ * chip 비디오 검색 조건 저장
+ */
+const SearchContext = createContext({});
+export const SearchProvider = ({ children }: { children: React.ReactNode }) => {
+  const [searchOption, setSearchOption] = useState({});
+  const [queryKey, setQueryKey] = useState(null);
+
+  const resetQueryKey = (queryKey: Array<string>) => {};
+
+  return (
+    <SearchContext.Provider
+      value={{
+        searchOption,
+        setSearchOption,
+      }}
+    >
+      {children}
+    </SearchContext.Provider>
+  );
+};
+
+export const useSearchContext = () => useContext(SearchContext);

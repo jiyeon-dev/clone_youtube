@@ -10,6 +10,7 @@ interface Result {
 // }
 
 export interface SearchOption {
+  [x: string]: boolean;
   part: string;
   pageToken?: string; // 다음 페이지 키 값
   q?: String; // keyword 검색어

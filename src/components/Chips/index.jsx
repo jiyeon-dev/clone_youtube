@@ -1,8 +1,15 @@
 import { useEffect, useRef, useState } from 'react';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa6';
 import { ChipsWrapper, ChipsContent, Chip } from '../../assets/wrappers/Chips';
+import { useSearchContext } from '../../context';
 
-const Chips = ({ position = 'fixed', width = '', chipList = {} }) => {
+const Chips = ({
+  position = 'fixed',
+  width = '',
+  chipList = {},
+  updateQueryKey,
+}) => {
+  const { setSearchOption } = useSearchContext();
   const ScrollContainer = useRef();
   const ChipsContainer = useRef();
   const LeftArrow = useRef();
@@ -70,6 +77,22 @@ const Chips = ({ position = 'fixed', width = '', chipList = {} }) => {
     RightArrow.current.classList.remove('none');
   };
 
+  // 태그 검색
+  const search = (event, tag) => {
+    // selected 클래스 토글
+    ChipsContainer.current
+      .querySelector('span.selected')
+      ?.classList.remove('selected');
+    event.target.classList.add('selected');
+
+    if (updateQueryKey) {
+      // 검색 조건 변경
+      setSearchOption(tag.option);
+      // queryKey 제거
+      updateQueryKey(tag.option);
+    }
+  };
+
   return (
     <ChipsWrapper position={position}>
       <ChipsContent width={width}>
@@ -87,7 +110,11 @@ const Chips = ({ position = 'fixed', width = '', chipList = {} }) => {
           <div className="chips-container" ref={ChipsContainer}>
             {chipList.map((tag, i) => {
               return (
-                <Chip key={i} className={tag.selected ? 'selected' : ''}>
+                <Chip
+                  key={i}
+                  className={tag.selected ? 'chip selected' : 'chip'}
+                  onClick={(e) => search(e, tag)}
+                >
                   {tag.name}
                 </Chip>
               );

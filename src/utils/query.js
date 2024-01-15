@@ -11,15 +11,13 @@ import {
  *
  * @param keyword 검색어
  */
-export const useFetchVideoList = (queryKey, keyword) => {
+export const useFetchVideoList = (queryKey, searchOption) => {
   return useInfiniteQuery({
     initialPageParam: undefined,
     queryKey,
     queryFn: async ({ pageParam = undefined }) => {
-      // console.log(`pageParam = ${pageParam} | keyword = ${keyword}`);
-      const searchOption = { pageToken: pageParam };
-      if (keyword) searchOption.q = keyword;
-      const response = await getVideoList(searchOption);
+      const option = Object.assign({ pageToken: pageParam }, searchOption);
+      const response = await getVideoList(option);
 
       // 비디오와 채널 상세 정보 조회
       const videoIds = [];

@@ -1,10 +1,12 @@
 import { RelateVideoContainer } from '../../../assets/wrappers/Watch/RelateVideo';
 import CompactCard from '../../Card/CompactCard';
+import Chips from '../../Chips';
 
-const WatchSecondary = ({ videoId, item }) => {
+const WatchSecondary = ({ videoId }) => {
   return (
     <RelateVideoContainer>
-      <CompactCard item={item} />
+      <Chips position="relative" width="402px" />
+      {/* <CompactCard item={item} /> */}
     </RelateVideoContainer>
   );
 };

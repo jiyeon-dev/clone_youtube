@@ -13,7 +13,7 @@ export const Wrapper = styled.header`
   // make sticky header
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 2001;
 `;
 
 // start - logo wrapper

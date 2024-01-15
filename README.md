@@ -44,7 +44,7 @@ $ npm run dev
 ## 진행 상황
 
 - [x] Youtube API 키 발급
-- [ ] 메인 페이지 Chips - Width 에 따른 화살표 생성
+- [x] 메인 페이지 Chips - Width 에 따른 화살표 생성
 - [x] infinite scroll - `IntersectionObserver` 사용
 - [x] 로딩 스켈레톤 만들기
 - [x] Card 에 hover 시 비디오 재생

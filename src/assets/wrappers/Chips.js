@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const ChipsWrapper = styled.div`
-  z-index: 2000;
+  z-index: 2;
   display: flex;
-  position: fixed;
+  position: ${(props) => props.position || 'relative'};
   justify-content: center;
   background-color: var(--white);
   /* height: 56px; */
@@ -13,7 +13,7 @@ export const ChipsContent = styled.div`
   display: flex;
   align-items: center;
   padding: 0 24px;
-  width: calc(100vw - var(--mini-nav-width));
+  width: ${(props) => props.width || 'calc(100vw - var(--mini-nav-width))'};
 
   .left-arrow,
   .right-arrow {
@@ -21,7 +21,7 @@ export const ChipsContent = styled.div`
     height: 100%;
     display: flex;
     align-items: center;
-    z-index: 2001;
+    z-index: 3;
   }
 
   .left-arrow {

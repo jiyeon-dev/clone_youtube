@@ -43,7 +43,7 @@ export const useFetchVideoList = (queryKey, keyword) => {
         const channelInfo = channels.items.find(
           (c) => c.id === item.snippet.channelId,
         );
-        item.channelDetails = channelInfo?.snippet;
+        item.channelDetails = channelInfo;
       });
 
       return response;
@@ -63,8 +63,14 @@ export const useFetchVideoList = (queryKey, keyword) => {
  * @returns
  */
 export const bindVideoInfo = (item) => {
+  const videoId =
+    Object.keys(item).length > 0
+      ? typeof item.id === 'string'
+        ? item.id
+        : item.id?.videoId
+      : undefined;
   return {
-    id: item.id,
+    id: videoId,
     title: item?.snippet?.title,
     thumbnail: {
       title: item?.snippet?.thumbnails?.title,

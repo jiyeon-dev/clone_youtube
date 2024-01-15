@@ -6,51 +6,51 @@ import {
 import { formatDuration } from '../../../utils/formatter';
 import { GoCheckCircleFill } from 'react-icons/go';
 import VerticalCardMetaData from './VerticalCardMetaData';
+import { bindVideoInfo } from '../../../utils/query';
+import { useNavigate } from 'react-router-dom';
 
 const VerticalCard = ({ item }) => {
-  const title = item?.snippet?.title;
-  const thumbnailUrl = item?.snippet?.thumbnails?.medium?.url || '';
-  const duration = item?.contentDetails?.duration || '';
-  const publishedAt = item?.snippet?.publishedAt || '';
-  const channel = {
-    img: item?.channelDetails?.thumbnails?.default?.url || '',
-    title: item?.channelDetails?.title || '',
-    description: item?.snippet?.description || '',
+  const video = bindVideoInfo(item);
+  const isLive = video.isLive;
+
+  // Card 클릭 시 Watch 페이지로 이동
+  let navigate = useNavigate();
+  const handelClickCard = (videoId) => {
+    if (videoId) {
+      navigate(`/watch?v=${videoId}`);
+    } else {
+      console.error('can not find video id');
+    }
   };
-  const isLive = item?.snippet?.liveBroadcastContent === 'live' ? true : false; // 실시간 라이브 여부
-  const viewCount =
-    (isLive
-      ? item?.liveStreamingDetails?.concurrentViewers
-      : item?.statistics?.viewCount) || NaN;
 
   return (
-    <Card>
+    <Card onClick={() => handelClickCard(video.id)}>
       <Thumbnail>
-        <img src={thumbnailUrl} alt={title} />
+        <img src={video.thumbnail.url} alt={video.thumbnail.title} />
         <div className="overlay"></div>
         <div className="progress-bar none">
           <div className="progress" />
         </div>
         {!isLive && (
-          <div className="video-duration">{formatDuration(duration)}</div>
+          <div className="video-duration">{formatDuration(video.duration)}</div>
         )}
       </Thumbnail>
 
       <CardInfo>
         <a className="avatar">
-          <img src={channel.img} alt={channel?.title} />
+          <img src={video.channel.img} alt={video.channel.title} />
         </a>
         <div className="details">
-          <a className="video-title">{title}</a>
+          <a className="video-title">{video.title}</a>
           <div className="channel-name">
-            <span>{channel?.title}</span>
+            <span>{video.channel.title}</span>
             <GoCheckCircleFill className="none" />
           </div>
           <VerticalCardMetaData
             isLive={isLive}
-            viewCount={viewCount}
-            publishedAt={publishedAt}
-            channel={channel}
+            viewCount={video.viewCount}
+            publishedAt={video.publishedAt}
+            channel={video.channel}
           />
         </div>
       </CardInfo>

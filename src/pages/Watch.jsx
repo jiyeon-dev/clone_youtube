@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import { getChannelDetailList, getVideoInfoList } from '../utils/youtubeAxios';
 import WatchPrimary from '../components/Watch/Primary';
 import WatchSecondary from '../components/Watch/Secondary';
+import { bindVideoInfo } from '../utils/query';
 
 const Watch = () => {
   const [video, setVideo] = useState({});
@@ -29,7 +30,7 @@ const Watch = () => {
         const channel = await getChannelDetailList({ id: channelId });
         item.channelDetails = channel.items[0];
 
-        setVideo(item);
+        setVideo(bindVideoInfo(item));
       }
     }
   };
@@ -46,8 +47,12 @@ const Watch = () => {
 
   return (
     <Container data-video-id={videoId}>
-      <WatchPrimary item={video} />
-      <WatchSecondary videoId={videoId} />
+      {Object.keys(video).length > 0 && (
+        <>
+          <WatchPrimary video={video} />
+          <WatchSecondary videoId={videoId} channel={video.channel} />
+        </>
+      )}
     </Container>
   );
 };

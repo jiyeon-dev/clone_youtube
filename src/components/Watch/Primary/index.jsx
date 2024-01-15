@@ -14,15 +14,13 @@ import { useGlobalContext } from '../../../context';
 import { TbDots } from 'react-icons/tb';
 import { PiShareFatLight } from 'react-icons/pi';
 import { AiOutlineLike, AiOutlineDislike } from 'react-icons/ai'; // 좋아요
-import { bindVideoInfo } from '../../../utils/query';
 import {
   formatViewCount,
   formatComma,
   formatDate2,
 } from '../../../utils/formatter';
 
-const WatchPrimary = ({ item }) => {
-  const video = bindVideoInfo(item);
+const WatchPrimary = ({ video }) => {
   const videoRef = useRef();
   //   console.log(video);
 

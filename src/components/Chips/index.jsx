@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa6';
 import { ChipsWrapper, ChipsContent, Chip } from '../../assets/wrappers/Chips';
 
-const Chips = ({ position = 'fixed', width }) => {
+const Chips = ({ position = 'fixed', width = '', chipList = {} }) => {
   const ScrollContainer = useRef();
   const ChipsContainer = useRef();
   const LeftArrow = useRef();
@@ -85,18 +85,13 @@ const Chips = ({ position = 'fixed', width }) => {
         </div>
         <div className="scroll-container" ref={ScrollContainer}>
           <div className="chips-container" ref={ChipsContainer}>
-            <Chip className="first selected">전체</Chip>
-            <Chip>실시간</Chip>
-            <Chip>게임</Chip>
-            <Chip>음악</Chip>
-            <Chip>문화</Chip>
-            <Chip>요리프로그램</Chip>
-            <Chip>관광</Chip>
-            <Chip>공예</Chip>
-            <Chip>시각 예술</Chip>
-            <Chip>최근에 업로드된 동영상</Chip>
-            <Chip>감상한 동영상</Chip>
-            <Chip>새로운 맞춤 동영상</Chip>
+            {chipList.map((tag, i) => {
+              return (
+                <Chip key={i} className={tag.selected ? 'selected' : ''}>
+                  {tag.name}
+                </Chip>
+              );
+            })}
           </div>
         </div>
         <div className="right-arrow none" ref={RightArrow}>

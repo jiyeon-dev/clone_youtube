@@ -19,6 +19,8 @@ import {
   formatComma,
   formatDate2,
 } from '../../../utils/formatter';
+import VideoCommentList from './VideoCommentList';
+import VideoCommentHeader from './VideoCommentHeader';
 
 const WatchPrimary = ({ video }) => {
   const videoRef = useRef();
@@ -110,6 +112,9 @@ const WatchPrimary = ({ video }) => {
           </Description>
         </MetaDataBottomRow>
       </VideoMetaDataContainer>
+
+      <VideoCommentHeader></VideoCommentHeader>
+      <VideoCommentList videoId={video.id}></VideoCommentList>
     </VideoPrimary>
   );
 };

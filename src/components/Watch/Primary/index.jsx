@@ -113,6 +113,7 @@ const WatchPrimary = ({ video }) => {
         </MetaDataBottomRow>
       </VideoMetaDataContainer>
 
+      {/* 댓글 */}
       <VideoCommentHeader></VideoCommentHeader>
       <VideoCommentList videoId={video.id}></VideoCommentList>
     </VideoPrimary>

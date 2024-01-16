@@ -10,14 +10,15 @@ interface Result {
 // }
 
 export interface SearchOption {
-  [x: string]: boolean;
   part: string;
   pageToken?: string; // 다음 페이지 키 값
   q?: String; // keyword 검색어
   type?: string;
   maxResults?: number; // 페이지 당 개수
   chart?: string; // 비디오 검색 차트
-  regionCode: 'kr';
+  regionCode?: 'kr';
+  videoSyndicated?: boolean;
+  order?: string;
 }
 
 export interface YVideoDataList extends Result {

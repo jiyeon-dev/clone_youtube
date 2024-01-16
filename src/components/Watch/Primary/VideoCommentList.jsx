@@ -4,6 +4,8 @@ import { Target } from '../../../assets/wrappers/Cards';
 import { CommentsWrapper } from '../../../assets/wrappers/Watch/Comment';
 import { useInfiniteQuery } from '@tanstack/react-query';
 import { getCommentList } from '../../../utils/youtubeAxios';
+import Comment from './Comment';
+import Loader from '../../Loader';
 
 const VideoCommentList = ({ videoId }) => {
   const { ref, inView } = useInView({
@@ -11,7 +13,7 @@ const VideoCommentList = ({ videoId }) => {
     delay: 100,
   });
 
-  useInfiniteQuery({
+  const { data, hasNextPage, isFetching, fetchNextPage } = useInfiniteQuery({
     initialPageParam: undefined,
     queryKey: [videoId, 'comment-list'],
     queryFn: async ({ pageParam = undefined }) => {
@@ -26,9 +28,28 @@ const VideoCommentList = ({ videoId }) => {
     },
   });
 
+  useEffect(() => {
+    // inView가 true 일때만 실행
+    if (inView && hasNextPage && !isFetching) {
+      fetchNextPage();
+    }
+  }, [inView]);
+
+  const commentList = useMemo(() => {
+    if (data) {
+      return data.pages.flatMap(({ items }) => {
+        return items;
+      });
+    } else return [];
+  }, [data]);
+
   return (
     <CommentsWrapper>
+      {commentList.map((item, idx) => {
+        return <Comment item={item} key={idx} />;
+      })}
       <Target ref={ref}></Target>
+      {isFetching && <Loader />}
     </CommentsWrapper>
   );
 };

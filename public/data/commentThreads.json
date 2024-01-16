@@ -1,0 +1,1711 @@
+{
+  "kind": "youtube#commentThreadListResponse",
+  "etag": "H2iyuysSUs3o03aQ8t85Hr6cnXQ",
+  "nextPageToken": "Z2V0X3JhbmtlZF9zdHJlYW1zLS1DcjhDQ0lBRUZSZTMwVGdhdEFJS3J3SUkyRjhRZ0FRWUJ5S2tBbk9ESXl5X3IzWHBDVXh4OEZGd1l5R0NHcldXSWdXSXNudUNIbUp1eURxU1pVRWk2V3RRam1RLVlXMUhNTmNoYkl4Z1BjS09MVzhqdzZ4RVlCNnFtTWdnQldzNmtvbmt3RlpDeThHU3BTTk5lVUtKY2hleEpjNmJpejB4OFl5R1dKMElRdmNTTXhlT1ZLamFjTG9seEVqcFhWRlJ3UDJ1SXF3RkxSeFJEVjRoLXlpb0xPWXNJMEhKVGtJSkxieVV4UVJOVlVhRFhDV0hjVmJDLUlZcFFoQlkwUzBEaTEyamxZSWVZVzNuVmV3WktDUG9kQ0VTdGdLVm5HVkFnVGxfMHg0SWNsQVFlcVpDMnNmT1JNVGV1bGpwdXRMWWVRbktTdW02ZGlZV2dRTUtRektkWUxRcHFBTWtseVpHVmhSbkFhRVk4VTVWRTlmVWFvTFVvUlFKdmNHcGh1ZUhPTk5SeUpXdkdGSUVlWl9zNFVjYXFVWm92SU9xakJoVzZhYTdKZ1lFUWdZUU1oSUZDSWdnR0FBU0J3aUVJQkF1R0FFU0JRaUpJQmdBRWdVSWh5QVlBQklIQ0pjZ0VDZ1lBUklGQ0tnZ0dBQVNCd2lGSUJBbEdBRVlBQQ==",
+  "pageInfo": {
+    "totalResults": 50,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#commentThread",
+      "etag": "YBrqSgUBjoPDEtSf_bULviSzeVM",
+      "id": "UgxprCihPdTaqfyjQTp4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "8u7YcZQt5QxV0YtbGiOhqVqjGxU",
+          "id": "UgxprCihPdTaqfyjQTp4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "최고의 동기부여 영상ㅋㅋㅋㅋㅋ",
+            "textOriginal": "최고의 동기부여 영상ㅋㅋㅋㅋㅋ",
+            "authorDisplayName": "@jfootballtv",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZS7GQB3QKTh27vGiU4Xle7t-Zx9bRYIYnrvBV3eyFs=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@jfootballtv",
+            "authorChannelId": {
+              "value": "UCFHUP1pTq7mqrYUWyyICp-A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 11589,
+            "publishedAt": "2023-11-15T10:50:58Z",
+            "updatedAt": "2023-11-15T10:50:58Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 21,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "16lcs3pfLvg44-Ayx03GhsowZHk",
+      "id": "UgzKW--2qS-802rJ2UZ4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "qOiHW5hvzw2aVpEHkH9mCocf2uo",
+          "id": "UgzKW--2qS-802rJ2UZ4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "결국 상협씨는 미라클모닝,이불개기,양치,아침운동,명상,찬물샤워,디지털디톡스,생각비우기,각종 운동,대충과제하고 극복하기,루틴실행,자신의 상황이 엿되었음을 인지하기, 제대로 과제하기까지 모두 다 했네요ㄷㄷㄷㄷㄷㄷ",
+            "textOriginal": "결국 상협씨는 미라클모닝,이불개기,양치,아침운동,명상,찬물샤워,디지털디톡스,생각비우기,각종 운동,대충과제하고 극복하기,루틴실행,자신의 상황이 엿되었음을 인지하기, 제대로 과제하기까지 모두 다 했네요ㄷㄷㄷㄷㄷㄷ",
+            "authorDisplayName": "@sui_sui11",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTiwRGYdwKrt8HfGH6cSYpDAFbSCzj9qPxAWA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@sui_sui11",
+            "authorChannelId": {
+              "value": "UCSOgsggAwK6qhtCc3J-hDQA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 3536,
+            "publishedAt": "2023-11-17T14:11:52Z",
+            "updatedAt": "2023-11-17T14:11:52Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 19,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "hx1Vsqvshyy67_1fHgwq8B27vZE",
+      "id": "UgyvdtVqkEyX1pE61OF4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "p463T_gMBJeMQH-YVkvCklto4Io",
+          "id": "UgyvdtVqkEyX1pE61OF4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "마지막에 실패란 없다는\u003cbr\u003e말에 왜이렇게 눈물이 나는지 모르겠습니다. 항상 각자의 자리에서 열심히 살아가시는분들 모두 끝에는 창대함으로 가득 차길 응원합니다",
+            "textOriginal": "마지막에 실패란 없다는\n말에 왜이렇게 눈물이 나는지 모르겠습니다. 항상 각자의 자리에서 열심히 살아가시는분들 모두 끝에는 창대함으로 가득 차길 응원합니다",
+            "authorDisplayName": "@user-de6rj4ut6n",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQJszgwtp7aEaHdUnj_7n9BgKdOIxYsdbdcowi23g=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-de6rj4ut6n",
+            "authorChannelId": {
+              "value": "UC_VPHw2NDsF4mbc2y7PsLlw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1894,
+            "publishedAt": "2023-11-17T21:34:12Z",
+            "updatedAt": "2023-11-17T21:34:12Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 7,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "tg_9egT7VOkVHZ3BFzN8hiFUHZg",
+      "id": "Ugy6jwZKqUSrius8v4Z4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "-Tun1SpyKGnllpRCy_9scMm1H-M",
+          "id": "Ugy6jwZKqUSrius8v4Z4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "와... 이번영상 보면서 느낀게 너덜트도 분명 발전하고 있다는거임. 기승전결까지 완벽하게 나오는 단편영화가 되는거같음. 항상 영상미와 디테일, 사운드는 어느 유투브 영상보다 탑급이었지만 이번 영상은 스토리탤링도 완벽했음.",
+            "textOriginal": "와... 이번영상 보면서 느낀게 너덜트도 분명 발전하고 있다는거임. 기승전결까지 완벽하게 나오는 단편영화가 되는거같음. 항상 영상미와 디테일, 사운드는 어느 유투브 영상보다 탑급이었지만 이번 영상은 스토리탤링도 완벽했음.",
+            "authorDisplayName": "@baedong299",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSidGVgDqYpBJJzupqkOSCrUv3qG2QG2rQ81A=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@baedong299",
+            "authorChannelId": {
+              "value": "UCjAj79gIbFkGz8g9fBNOHVg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1453,
+            "publishedAt": "2023-11-18T13:45:54Z",
+            "updatedAt": "2023-11-18T13:45:54Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 7,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "5_4BWb6oPn9F4fbW0L3uQhAk-bA",
+      "id": "UgyAo2wFDtIlq2AfRP14AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "lEBKrIb0rh6T5U8dAn_xNK3jEak",
+          "id": "UgyAo2wFDtIlq2AfRP14AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "이사람들은 진짜 오래가겠다. 경쟁자고 뭐고없어... 자기컨텐츠를 하는 사람들임.볼수록  지루해지는게 아니라 발전하는게 눈이보이고. 와..... 영상들이 주는 메세지마저 있어. 최고야 너덜트",
+            "textOriginal": "이사람들은 진짜 오래가겠다. 경쟁자고 뭐고없어... 자기컨텐츠를 하는 사람들임.볼수록  지루해지는게 아니라 발전하는게 눈이보이고. 와..... 영상들이 주는 메세지마저 있어. 최고야 너덜트",
+            "authorDisplayName": "@Javier_Art_76",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/RzzVrBdtCLOs4JyY4Vf6Sx26USd_NGXjAKuaJsyIaw349_h71lOZ03-3P8VqIlcMj6IdfYStyQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Javier_Art_76",
+            "authorChannelId": {
+              "value": "UCROsmKPtZAq0COZmTwN1G2Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 660,
+            "publishedAt": "2023-11-23T09:11:46Z",
+            "updatedAt": "2023-11-23T09:11:46Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 2,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "MaCcV12M3LP6v27IKJoNjk_WBiM",
+      "id": "UgwQAtATUnnAxh1OBQJ4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "18iz3m0vHJvgpB6bE0buxSDKmBA",
+          "id": "UgwQAtATUnnAxh1OBQJ4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "이 영상마저 동기부여로 만들어버리는게 진짜 미쳤다..",
+            "textOriginal": "이 영상마저 동기부여로 만들어버리는게 진짜 미쳤다..",
+            "authorDisplayName": "@user-sb3uu5mg5i",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZR6_2L6wjfVOaQmySC8ILAeKI51iMlkr6Q7Vz5T=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-sb3uu5mg5i",
+            "authorChannelId": {
+              "value": "UC97mUjfT-WZ8JxsJBwCKcIA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 649,
+            "publishedAt": "2023-11-18T02:59:39Z",
+            "updatedAt": "2023-11-18T02:59:39Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "EDISuy1RZCY54bvU1SfjSfw_fR0",
+      "id": "Ugwj4UGvdh50PrTote94AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "gwWFwdipYQuDUFpbWUS0T0FbnuM",
+          "id": "Ugwj4UGvdh50PrTote94AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "&#39;최고의 동기부여는 내 상황이 엿됐음을 인지하는 거&#39; 공감이 진짜 가는 말이네요ㅋㅋㅋㅋㅋ",
+            "textOriginal": "'최고의 동기부여는 내 상황이 엿됐음을 인지하는 거' 공감이 진짜 가는 말이네요ㅋㅋㅋㅋㅋ",
+            "authorDisplayName": "@user-xz5er9pr5b",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSeA9nfibs_HNm21iOUKALnBJ9v9vEy4pnXPA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-xz5er9pr5b",
+            "authorChannelId": {
+              "value": "UCchoh2WkNay7zIsRaHxaa3Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 12116,
+            "publishedAt": "2023-11-15T13:16:44Z",
+            "updatedAt": "2023-11-15T13:16:44Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 32,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "_GO06P7-dCBgih4gYhjdNtKxwFY",
+      "id": "UgwuXqOIvfKr0KwNRVR4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "SIBG4WTc3hj47Q4Br-_oTn1sEqk",
+          "id": "UgwuXqOIvfKr0KwNRVR4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "이런 긍정적 엔딩 아닐 줄 알았는데 너덜트 새롭다. 동기부여영상들 엄청 비꼬는 것 같다가 성공으로 힘있게 끝나니까 뭔가 ‘뒤통수+뭐지 이 장르는’ 느낌",
+            "textOriginal": "이런 긍정적 엔딩 아닐 줄 알았는데 너덜트 새롭다. 동기부여영상들 엄청 비꼬는 것 같다가 성공으로 힘있게 끝나니까 뭔가 ‘뒤통수+뭐지 이 장르는’ 느낌",
+            "authorDisplayName": "@boomshe",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRQ6EPEazCXjIwXRfRyCb8UQE5DxXoqqOiHIg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@boomshe",
+            "authorChannelId": {
+              "value": "UCv6xgg-Lsa1KWNa2CYwAceg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 289,
+            "publishedAt": "2023-11-20T03:13:33Z",
+            "updatedAt": "2023-11-20T03:13:33Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "s3xthzdrDhu7cOyZN5TbDW5NR6w",
+      "id": "UgyOFQrtIQ6lS5GpENR4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "7uCTJl_NnwuwGxfMi9v6OW02rC0",
+          "id": "UgyOFQrtIQ6lS5GpENR4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "동기부여 시작 시간대\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://www.youtube.com/watch?v=6x3b_70jBvk&amp;t=1\"\u003e0:01\u003c/a\u003e\u003cbr\u003e살다보면 느껴요\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://www.youtube.com/watch?v=6x3b_70jBvk&amp;t=104\"\u003e1:44\u003c/a\u003e\u003cbr\u003e쾌락을 추구하면\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://www.youtube.com/watch?v=6x3b_70jBvk&amp;t=191\"\u003e3:11\u003c/a\u003e\u003cbr\u003e나를 무시하는 사람들\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://www.youtube.com/watch?v=6x3b_70jBvk&amp;t=217\"\u003e3:37\u003c/a\u003e\u003cbr\u003e극복하라고\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://www.youtube.com/watch?v=6x3b_70jBvk&amp;t=270\"\u003e4:30\u003c/a\u003e\u003cbr\u003e불안하면 어떡할 건데?\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://www.youtube.com/watch?v=6x3b_70jBvk&amp;t=319\"\u003e5:19\u003c/a\u003e\u003cbr\u003e최고의 동기부여는\u003cbr\u003e내 상황이 엿됐음을\u003cbr\u003e인지하는 거\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://www.youtube.com/watch?v=6x3b_70jBvk&amp;t=359\"\u003e5:59\u003c/a\u003e\u003cbr\u003e어떤 방법이 나을까\u003cbr\u003e고민하지 마세요.\u003cbr\u003e\u003cbr\u003e감사합니다.",
+            "textOriginal": "동기부여 시작 시간대\n\n0:01\n살다보면 느껴요\n\n1:44\n쾌락을 추구하면\n\n3:11\n나를 무시하는 사람들\n\n3:37\n극복하라고\n\n4:30\n불안하면 어떡할 건데?\n\n5:19\n최고의 동기부여는\n내 상황이 엿됐음을\n인지하는 거\n\n5:59\n어떤 방법이 나을까\n고민하지 마세요.\n\n감사합니다.",
+            "authorDisplayName": "@user-gs6qc3ys6i",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSjZHhVlrLODXuY4ieHvAGKJQKbdwBP2FuP0g=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-gs6qc3ys6i",
+            "authorChannelId": {
+              "value": "UC8zHkGbSMhk1oaJH0BRrp0Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 5,
+            "publishedAt": "2024-01-13T09:51:04Z",
+            "updatedAt": "2024-01-13T09:54:15Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "7FQ6GN8Kckgbnww9xmx7BR-3Cgg",
+      "id": "Ugww4d4FFZbWJZ26rkx4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "hw_GkHEvHlpAuHzcQG315iGZslE",
+          "id": "Ugww4d4FFZbWJZ26rkx4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "ㄷㄷ,, 너덜트의 영상들은 항상 미친 퀄리티임.. 매 영상들마다 주제가 신선하고, 가슴을 때리는 임팩트를 주는 영상들이 많다. 오늘의 동기부여 영상은 또 한번 심장을 때리기에 충분했다. 작심삼일이 3000일이 되는 그 날까지 ㄱㄱ",
+            "textOriginal": "ㄷㄷ,, 너덜트의 영상들은 항상 미친 퀄리티임.. 매 영상들마다 주제가 신선하고, 가슴을 때리는 임팩트를 주는 영상들이 많다. 오늘의 동기부여 영상은 또 한번 심장을 때리기에 충분했다. 작심삼일이 3000일이 되는 그 날까지 ㄱㄱ",
+            "authorDisplayName": "@yshzz2401",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRzvuQcDlxaRiHpikDSNoRJ_7X_7ojOb8VO2KzPcg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@yshzz2401",
+            "authorChannelId": {
+              "value": "UCUwpsX4OAvbJUGvSI92kK2g"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 149,
+            "publishedAt": "2023-11-18T14:26:02Z",
+            "updatedAt": "2023-11-18T14:26:02Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "EgES2Nq5JLfFHTIFxxMNcWjAkIM",
+      "id": "UgzWGNlqQ_chhYe8AZF4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "4WfTrUWmanc1C_k2x7qg1lVFSHg",
+          "id": "UgzWGNlqQ_chhYe8AZF4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "언젠가는 &#39;잘하는 집을 안가봐서 그래&#39; 로 주제를 한번 해주셨으면 좋겠어요 ㅋㅋㅋ",
+            "textOriginal": "언젠가는 '잘하는 집을 안가봐서 그래' 로 주제를 한번 해주셨으면 좋겠어요 ㅋㅋㅋ",
+            "authorDisplayName": "@evicpie",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZR7wPB4pMEs-8o-5Ln8GOxKOSXT2y9OwYAJ0F6z=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@evicpie",
+            "authorChannelId": {
+              "value": "UCPFskdO2P2blNbEBtbtYdFQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 78,
+            "publishedAt": "2023-11-21T01:49:22Z",
+            "updatedAt": "2023-11-21T01:49:22Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "B9KWzHmvzLUag08kj0HK96zLThU",
+      "id": "UgzMkKHcJGGjUZXj3FN4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "bObdxlPqND0NOw6ZX8QbgQsVbrM",
+          "id": "UgzMkKHcJGGjUZXj3FN4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "와  마지막 과제 완벽히 해낸게 성공 \u003cbr\u003e소름돋았네요  그저  개그로\u003cbr\u003e끝낼줄알았는데  저리 생산적\u003cbr\u003e현실적 성공까지 하는게 찐 멋짐 \u003cbr\u003e작은성공으로 인한 보상  도파민에\u003cbr\u003e중독되어라 저거 찐 맞는듯 \u003cbr\u003e일어나  이불부터 개라 \u003cbr\u003e일단 시작해서  깨어나라  \u003cbr\u003e시작이 반이다\u003cbr\u003e안되더라도 일단 시작해라\u003cbr\u003e그리고  꾸준히 해라\u003cbr\u003e한방울 한방울이  바위를\u003cbr\u003e뚫는다... 타인  세상사람  절반이상은\u003cbr\u003e의외로  게으르다  생각보다 \u003cbr\u003e열심히 안산다..\u003cbr\u003e생각하고  자신의상황을 인지하고\u003cbr\u003e인정하고  조금이라도\u003cbr\u003e푸쉬업 하나라도 턱걸이 한개라도\u003cbr\u003e턱걸이 하나 못하면\u003cbr\u003e1분 매달리기라도\u003cbr\u003e1분도 못하면 30초 라도\u003cbr\u003e일단 작은 걸음마로 시작한\u003cbr\u003e걸음마가  인생의 큰 산  정복의\u003cbr\u003e첫걸음 이다.. \u003cbr\u003e으음... 메모..",
+            "textOriginal": "와  마지막 과제 완벽히 해낸게 성공 \n소름돋았네요  그저  개그로\n끝낼줄알았는데  저리 생산적\n현실적 성공까지 하는게 찐 멋짐 \n작은성공으로 인한 보상  도파민에\n중독되어라 저거 찐 맞는듯 \n일어나  이불부터 개라 \n일단 시작해서  깨어나라  \n시작이 반이다\n안되더라도 일단 시작해라\n그리고  꾸준히 해라\n한방울 한방울이  바위를\n뚫는다... 타인  세상사람  절반이상은\n의외로  게으르다  생각보다 \n열심히 안산다..\n생각하고  자신의상황을 인지하고\n인정하고  조금이라도\n푸쉬업 하나라도 턱걸이 한개라도\n턱걸이 하나 못하면\n1분 매달리기라도\n1분도 못하면 30초 라도\n일단 작은 걸음마로 시작한\n걸음마가  인생의 큰 산  정복의\n첫걸음 이다.. \n으음... 메모..",
+            "authorDisplayName": "@minkim6879",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRMkElL920ooPp5IuHUClzneXl7_mh_mlVqsPei=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@minkim6879",
+            "authorChannelId": {
+              "value": "UCGnc6NP-vEyRPAkk07R3jcQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 3,
+            "publishedAt": "2024-01-13T20:54:33Z",
+            "updatedAt": "2024-01-13T20:54:33Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "w2bItVZpwDrvNTB6eHOXP_Mequ4",
+      "id": "UgyXwiv8xT6diBOp0VZ4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "nimhpbajXkzwrmZSIbhSRGjKS3E",
+          "id": "UgyXwiv8xT6diBOp0VZ4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 진짜 너무 재밌잖아",
+            "textOriginal": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 진짜 너무 재밌잖아",
+            "authorDisplayName": "@TesterHoon1",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQt9UU2I92nogbEX1rHUgZpgreG9Jj-ai6rr_QYNA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@TesterHoon1",
+            "authorChannelId": {
+              "value": "UCUbOogiD-4PKDqaJfSOTC0g"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 4804,
+            "publishedAt": "2023-11-15T09:24:59Z",
+            "updatedAt": "2023-11-15T09:24:59Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 36,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "wUmxsCGHcKpRHzp8NeyUO6I2tBc",
+      "id": "UgzIlXAfOxS6Zfm1JPF4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "pF1QKCd7x0h697IpgDHkJUKJMAU",
+          "id": "UgzIlXAfOxS6Zfm1JPF4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "유현규 이사람 천재네!\u003cbr\u003e이런 각본이 계속해서 만들어내면서, 연출하면서, 편집까지...\u003cbr\u003e대단하다. 진짜",
+            "textOriginal": "유현규 이사람 천재네!\n이런 각본이 계속해서 만들어내면서, 연출하면서, 편집까지...\n대단하다. 진짜",
+            "authorDisplayName": "@ecolight-3634",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSL9n1u0b28WdtlrjTC5NgxbaQiM7BnHYyMJ6Ux=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ecolight-3634",
+            "authorChannelId": {
+              "value": "UC-wPii9Sq59wNHAmOVuVb3Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 160,
+            "publishedAt": "2023-11-19T11:11:35Z",
+            "updatedAt": "2023-11-19T11:11:35Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "-w4R9UkV4XP5uVJdujPWgGo7Vb0",
+      "id": "UgzGc-FlYPqfO8D_iER4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "lwIKfQ_OuAHI0NdG7bl1ih4pJP8",
+          "id": "UgzGc-FlYPqfO8D_iER4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "몇년 째 동기부여 영상도 보고 많은 동기부여 채널도 구독했지만,  어렵고 이론적인 내용이 아니라 누구라도 이해할 수 있는 영상이어서 너무 좋았어요. \u003cbr\u003e그리고 초반까지 볼 때  최근 내가  멘탈자위를 한게 아닐까? 라는 의문도 주시네요.\u003cbr\u003e 생각 정리하러 명상이나 해야겠습니다.\u003cbr\u003e너덜트 꼭 1000만 구독자 달성해요",
+            "textOriginal": "몇년 째 동기부여 영상도 보고 많은 동기부여 채널도 구독했지만,  어렵고 이론적인 내용이 아니라 누구라도 이해할 수 있는 영상이어서 너무 좋았어요. \n그리고 초반까지 볼 때  최근 내가  멘탈자위를 한게 아닐까? 라는 의문도 주시네요.\n 생각 정리하러 명상이나 해야겠습니다.\n너덜트 꼭 1000만 구독자 달성해요",
+            "authorDisplayName": "@user-db1dy6kz2h",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/sCs8_bpXHbvCtyCU7y4BPHWBf_XycsGDPUn1VumeLtK_m8hcRrGY6I2Jv1S_6gp6BOuuDOjnmQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-db1dy6kz2h",
+            "authorChannelId": {
+              "value": "UCru1wmdPzTB6KxlbjHlABFw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 45,
+            "publishedAt": "2023-11-21T09:01:40Z",
+            "updatedAt": "2023-11-21T09:01:40Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "eErfmfW8G9Shr42MIlPUulypt98",
+      "id": "UgxIMSzQZTwmMxmFGmF4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "xIR8-02q942ULtspHZcqF8P-A6o",
+          "id": "UgxIMSzQZTwmMxmFGmF4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "와.....처음 봤을 때 현규님 보고 진짜 강사님이신 줄 알았네요 솔직히 너덜트뿐만 아니라 유튜브의 모든 영상들 중에서도 이번 영상이 진짜 역대급이지 않을까 감히 생각해봅니다...",
+            "textOriginal": "와.....처음 봤을 때 현규님 보고 진짜 강사님이신 줄 알았네요 솔직히 너덜트뿐만 아니라 유튜브의 모든 영상들 중에서도 이번 영상이 진짜 역대급이지 않을까 감히 생각해봅니다...",
+            "authorDisplayName": "@koy1929",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/tFoP0D8ucqJ76jYeVjvhg1EjLq1WDK0OEmbVtq-503hiJuyD8BqYamg725hjYbBu4Rpjf-0wPQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@koy1929",
+            "authorChannelId": {
+              "value": "UC3oeZPGPD_MQrxZ3wDee8vw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 5,
+            "publishedAt": "2024-01-04T17:04:36Z",
+            "updatedAt": "2024-01-04T17:04:48Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ptWf5NqQkHZQ381NbQgtshO60gs",
+      "id": "Ugxg8kLpE7HztWhjDU54AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "yQ3P-PB4b5lmvHyFtpb_gwZP0KU",
+          "id": "Ugxg8kLpE7HztWhjDU54AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "미쳤다.. 처음엔 재밌게 봤는데 갈수록 자극되고 동기부여돼요..심지어 다른 동기부여 영상이랑 똑같네요 분위기부터 딕션까지..알람으로 하겠습니다 감사합니다",
+            "textOriginal": "미쳤다.. 처음엔 재밌게 봤는데 갈수록 자극되고 동기부여돼요..심지어 다른 동기부여 영상이랑 똑같네요 분위기부터 딕션까지..알람으로 하겠습니다 감사합니다",
+            "authorDisplayName": "@user-21244s",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/t-lRlfSnAYqv7kCmC-IF_uiI8jnRGFqNsenXQd2SX1soa_e002kLZOym8gZAnXxpGxGKWb8K8w=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-21244s",
+            "authorChannelId": {
+              "value": "UC6sTQWgARs3CgAfdiikQosw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 34,
+            "publishedAt": "2023-11-19T12:44:29Z",
+            "updatedAt": "2023-11-19T12:44:29Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 3,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "whu_Xm3QMHm3B_z_Fayv_0tHpKY",
+      "id": "UgxTQC7Po98cZo21GPt4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "3SlxV9lZfIw_lIT2PxhQ9N-34Us",
+          "id": "UgxTQC7Po98cZo21GPt4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "오랜 만에 다시 보는데, 이거 웃음 포인트가 아니라, 이 영상의 주제였네요. &#39;늦게 깨달았어요. 최고의 동기부여는 내 상황이 엿 됐음을 인지하는 거라는 거.&#39; ... 이게 진짜 이 영상의 핵심 메시지 같습니다.",
+            "textOriginal": "오랜 만에 다시 보는데, 이거 웃음 포인트가 아니라, 이 영상의 주제였네요. '늦게 깨달았어요. 최고의 동기부여는 내 상황이 엿 됐음을 인지하는 거라는 거.' ... 이게 진짜 이 영상의 핵심 메시지 같습니다.",
+            "authorDisplayName": "@user-wd6yk1bm7x",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRAOxaZTfub5VKSMuEDlJ0Ts0Ge5zKejevDCbPAgNS9zw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-wd6yk1bm7x",
+            "authorChannelId": {
+              "value": "UCbDtpy61m8GWX8ZJ6lPB6lQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 6,
+            "publishedAt": "2023-12-29T02:17:31Z",
+            "updatedAt": "2023-12-29T02:17:31Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "7PROBcT0G5v09NQ1m6sPvOg-LxI",
+      "id": "Ugywezh22DIPauTZZDN4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Yidi6bbWnGpYvwg_P6zRoStkxNs",
+          "id": "Ugywezh22DIPauTZZDN4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "현규님 연기가 진짜 1타강사처럼 자신감넘치고 가르칠려는 목소리 리얼.. 동기영상 강사같다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+            "textOriginal": "현규님 연기가 진짜 1타강사처럼 자신감넘치고 가르칠려는 목소리 리얼.. 동기영상 강사같다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+            "authorDisplayName": "@user-ql9sl4ew3x",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTNsw4vezeImYT2d_2mkS0VI1KDCpdA1W_Qzg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-ql9sl4ew3x",
+            "authorChannelId": {
+              "value": "UCu7R-eH0B1HrjFWzszscqnQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1786,
+            "publishedAt": "2023-11-15T10:24:16Z",
+            "updatedAt": "2023-11-15T10:24:16Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 3,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "WCL7CwHuaBtEalc-Hkk_fHmG_aE",
+      "id": "UgyvegqiQ9EXmXtxFZp4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "-35oYzNE5hRuoYGjWHJW8AN78mo",
+          "id": "UgyvegqiQ9EXmXtxFZp4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "공무원 시험 도전중인데 10시간 공부하고 쉴때 마다 너덜트 보는게 제 낙이에요 이번 영상 너무 감사합니다.",
+            "textOriginal": "공무원 시험 도전중인데 10시간 공부하고 쉴때 마다 너덜트 보는게 제 낙이에요 이번 영상 너무 감사합니다.",
+            "authorDisplayName": "@user-ck8xw3oh6e",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRKHI5X_yvcLl0jord35OzHijtVyVnJeVdmaghPfQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-ck8xw3oh6e",
+            "authorChannelId": {
+              "value": "UCl9oXu0CMxcW3gBdbKAclKA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 32,
+            "publishedAt": "2023-11-19T02:19:24Z",
+            "updatedAt": "2023-11-19T02:19:24Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "LoCIUWuDTgVkNU8_8XjN5IY8PWA",
+      "id": "Ugy5r8h3GOWVvsZWrhl4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "lsGhQNakF_RHcuEDq8P8ad93Gng",
+          "id": "Ugy5r8h3GOWVvsZWrhl4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "와... 진짜 감탄이 나온다... 이정도면 백상에술 상 줘야하는거 아닌가? 너무 잘만든다",
+            "textOriginal": "와... 진짜 감탄이 나온다... 이정도면 백상에술 상 줘야하는거 아닌가? 너무 잘만든다",
+            "authorDisplayName": "@gmkat0750",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRAzmBzQV2SU3mERNQEoz0oUNlFe7f_kB4k0JqoJ8_HaDrm2cJ2vWASf3oGDDoG=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@gmkat0750",
+            "authorChannelId": {
+              "value": "UCJwcgT3NTiTwz_Bao2lVzsw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 35,
+            "publishedAt": "2023-11-19T16:02:28Z",
+            "updatedAt": "2023-11-19T16:02:28Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ZM5UHJcqIJfbs4MKuAcXZDFgaxk",
+      "id": "UgwORmQA90D12iWMGwV4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "gAJ8-HN3T_h2HFF0Tw7HQrNVSHY",
+          "id": "UgwORmQA90D12iWMGwV4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "너덜트님 영상을 보면서 매일 웃고있습니다! 공감할 때도 있고 동기부여가 될 때도 있네요! 이런 디테일을 잡아서 만드시는 것을 정말 존경합니다! 앞으로 이런 영상 많이 만들어 주세요!",
+            "textOriginal": "너덜트님 영상을 보면서 매일 웃고있습니다! 공감할 때도 있고 동기부여가 될 때도 있네요! 이런 디테일을 잡아서 만드시는 것을 정말 존경합니다! 앞으로 이런 영상 많이 만들어 주세요!",
+            "authorDisplayName": "@user-rf4ns9uu9k",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSDv1jlFs315w9yKRUWRAVCRBrYXkj4GtHXVt9agO9bMA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-rf4ns9uu9k",
+            "authorChannelId": {
+              "value": "UCCtWmFMbTzk8H-pELZL4uTA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 3,
+            "publishedAt": "2023-12-05T02:11:31Z",
+            "updatedAt": "2023-12-05T02:11:31Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "CeJaHHcLl3w_8YHxpIVnUd_MuPM",
+      "id": "UgwYO6gkK-61Kv4Gwn14AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "-uVXMayo5NVMiDPyLj9i9xJrBtQ",
+          "id": "UgwYO6gkK-61Kv4Gwn14AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "고통을 이겨내고 매회 영상을 기획하고 제작해서 업로드 하시는 것에 대해 존경합니다. 조회수 대박이라는 쾌락이 항상 따르시기를 응원합니다.",
+            "textOriginal": "고통을 이겨내고 매회 영상을 기획하고 제작해서 업로드 하시는 것에 대해 존경합니다. 조회수 대박이라는 쾌락이 항상 따르시기를 응원합니다.",
+            "authorDisplayName": "@gyeyeongcho4194",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRbtEIMfE2g8cjFmtoWOvdjsbJKw13O9lJVww=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@gyeyeongcho4194",
+            "authorChannelId": {
+              "value": "UCS3AfGwPtX4qGrtQq-ej1ag"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 102,
+            "publishedAt": "2023-11-17T13:13:36Z",
+            "updatedAt": "2023-11-17T13:13:36Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "xiheGv1QU3CFulNmlg9_l_7OJs8",
+      "id": "Ugwt7_3aTvFYDYnqk954AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Chp2EL-4A5Sn1jCMXiV7I8grI4w",
+          "id": "Ugwt7_3aTvFYDYnqk954AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "제대로 해내면 남들이랑 다른 행동을 해도 반응이 달라지네요. 진짜 동기부여라는 목적에 부합하는 스토리ㅋㅋㅋㅋㅋ",
+            "textOriginal": "제대로 해내면 남들이랑 다른 행동을 해도 반응이 달라지네요. 진짜 동기부여라는 목적에 부합하는 스토리ㅋㅋㅋㅋㅋ",
+            "authorDisplayName": "@setnewhandle",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZS7tgLtfktOrSEf1eLbNFerEIwg-geQCsmr-Q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@setnewhandle",
+            "authorChannelId": {
+              "value": "UC3W9vTMGNY4VYM6etADUkxA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 10,
+            "publishedAt": "2023-11-25T04:49:09Z",
+            "updatedAt": "2023-11-25T04:50:21Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "eSLsdodjgkFk-bkZQ22UK3qQvE4",
+      "id": "UgzDAF9MC6RyDuCrVdp4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "1e2JpTQFnza-PqTbmCQZYpS4_Zs",
+          "id": "UgzDAF9MC6RyDuCrVdp4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "동기부여 해주는 영상들, 명언들 모두 현실에서 도피하기 위한 도구로 밖에 쓰이지 못할 수 있다는 풍자 끝에..\u003cbr\u003e그럼에도 그 메세지는 결코 틀리지 않았으며 무엇이든 끊임없이 계속 해야 한다는, 이 자체가 최고의 동기부여 영상 ㄷㄷ",
+            "textOriginal": "동기부여 해주는 영상들, 명언들 모두 현실에서 도피하기 위한 도구로 밖에 쓰이지 못할 수 있다는 풍자 끝에..\n그럼에도 그 메세지는 결코 틀리지 않았으며 무엇이든 끊임없이 계속 해야 한다는, 이 자체가 최고의 동기부여 영상 ㄷㄷ",
+            "authorDisplayName": "@user-ed1lq4kh2x",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQMkDan-j0XzSRKKaItD9BS923RGZtbWsvlSryj7Q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-ed1lq4kh2x",
+            "authorChannelId": {
+              "value": "UCahF2nyfE8iMtflec0CKvjw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1579,
+            "publishedAt": "2023-11-15T10:39:28Z",
+            "updatedAt": "2023-11-15T10:39:28Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 13,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "7fRbsc5JR9_z1iyy6yeqGVpP2Dw",
+      "id": "UgzGwnOi0ZXysFHb8a54AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ZCXetSrC7jOACC0Oq8srVfgfRqE",
+          "id": "UgzGwnOi0ZXysFHb8a54AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "진짜 배기는,, 동기부여 필요 없이 할 일 잘하시는 재형님,,",
+            "textOriginal": "진짜 배기는,, 동기부여 필요 없이 할 일 잘하시는 재형님,,",
+            "authorDisplayName": "@user-br4sn1zp1z",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZT_U2vbbG0Rw4eJxgX5ufbdfGQDkoQ04i5Ip8U_tQ59dOO2HMEOmCmwReBfhDio=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-br4sn1zp1z",
+            "authorChannelId": {
+              "value": "UCgMVVRlGk5ibolRGBYSMbmQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 8,
+            "publishedAt": "2023-11-19T11:38:54Z",
+            "updatedAt": "2023-11-19T11:38:54Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "yxqV6ksmocXBvhPCQKm6ZyoG090",
+      "id": "UgzEjN88n26jqagOfAd4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "x7Xi5e7GlbYP78OvRFGBVLd8VMQ",
+          "id": "UgzEjN88n26jqagOfAd4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "와 진짜 명언이네..\u003cbr\u003e&quot;실패란 없다. 아직 성공하지 못했을뿐&quot;\u003cbr\u003e넘 멋있네",
+            "textOriginal": "와 진짜 명언이네..\n\"실패란 없다. 아직 성공하지 못했을뿐\"\n넘 멋있네",
+            "authorDisplayName": "@JJ-eq8uf",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/EmhpU4eA1MVJaPOK_sL4kTkhHERF59QbNEJd7xbdO3kkx1AB2EylSs4AG_T3tdFJe1LuU_9q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@JJ-eq8uf",
+            "authorChannelId": {
+              "value": "UCZp9GMwX5UoEuzxFwOqk4bA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 21,
+            "publishedAt": "2023-11-23T05:23:35Z",
+            "updatedAt": "2023-11-23T05:23:35Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "VK10uzBgBSbg-qRzoJH_yvgavFo",
+      "id": "UgwixVezToZKRaj9ra14AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ZWl1IXGWfsqGHj1XqjUg-bFvDD0",
+          "id": "UgwixVezToZKRaj9ra14AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "어린이집, 유치원, 초중고대, 직장인, 임원진들을 위한 공익 영상으로 최고인데요! \u003cbr\u003e학교 개학, 시험 후, 방학날 한번씩 필수로 틀어야 되는거 아니에요?\u003cbr\u003e공영방송 9시 뉴스, 시청율 나온다 싶으면 고정으로 이 영상을 필수 광고로 해야 할 것 같습니다.\u003cbr\u003e너무 좋아요. \u003cbr\u003e\u003cbr\u003e이 영상은 사라지면 안되는 국가 차원에서 보호하고 관리해야 할 것 같습니다.",
+            "textOriginal": "어린이집, 유치원, 초중고대, 직장인, 임원진들을 위한 공익 영상으로 최고인데요! \n학교 개학, 시험 후, 방학날 한번씩 필수로 틀어야 되는거 아니에요?\n공영방송 9시 뉴스, 시청율 나온다 싶으면 고정으로 이 영상을 필수 광고로 해야 할 것 같습니다.\n너무 좋아요. \n\n이 영상은 사라지면 안되는 국가 차원에서 보호하고 관리해야 할 것 같습니다.",
+            "authorDisplayName": "@johnyuan3460",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQ0mgIIaRyrlL8GjwFnBsWJ03I_s_hID2_sag=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@johnyuan3460",
+            "authorChannelId": {
+              "value": "UCvtM1d51ErGWTSr_UC8HrgQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 20,
+            "publishedAt": "2023-11-21T01:57:00Z",
+            "updatedAt": "2023-11-21T01:57:00Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "jjHQfplmorc0QJEJYTeVK4ETfKk",
+      "id": "UgxsMJP6Xx_kNB6ouWZ4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "syy8p9rVpbs85aVFJXJE_0e0DL0",
+          "id": "UgxsMJP6Xx_kNB6ouWZ4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "이번편 보면서 먼가 공감되었네요. 아버지께서 작심3일도 계속하면 된다고 하셨던 기억나는...화이팅!!",
+            "textOriginal": "이번편 보면서 먼가 공감되었네요. 아버지께서 작심3일도 계속하면 된다고 하셨던 기억나는...화이팅!!",
+            "authorDisplayName": "@user-nn9ff2py7p",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/GcRQ6JI27t93TKj0R-yfpn5HVb8ZqxhjgtdiBcPtMNzIUJpTFco2LAJAxSY205ZKc6Vf3QdCIQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-nn9ff2py7p",
+            "authorChannelId": {
+              "value": "UCVVEO4G9tVHgTYuW5a9ZOog"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 20,
+            "publishedAt": "2023-11-17T11:54:17Z",
+            "updatedAt": "2023-11-17T11:54:17Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "yUVhjUJoBYue-nQv8QsSapSXB3I",
+      "id": "Ugz7lFr3pd9PHon0Z9h4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "jzcBSoTzToxs-hut72axcjdK06s",
+          "id": "Ugz7lFr3pd9PHon0Z9h4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "동기부여충들을 까면서 \u003cbr\u003e동시에 동기부여를?\u003cbr\u003e이게 너덜트의 개성이다.\u003cbr\u003e난 진짜 너덜트가 너무 좋아..",
+            "textOriginal": "동기부여충들을 까면서 \n동시에 동기부여를?\n이게 너덜트의 개성이다.\n난 진짜 너덜트가 너무 좋아..",
+            "authorDisplayName": "@user-bl4or8ys2b",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/m68AQtsu_fPuguuLEl47FLPlULC5GnQ29PEKk2grmnYv3S3XbtPuD4HOYMJChofBHD8srNKb=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-bl4or8ys2b",
+            "authorChannelId": {
+              "value": "UCkzTRBAlgoSDI57VdktuvfQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 23,
+            "publishedAt": "2023-12-07T04:23:19Z",
+            "updatedAt": "2023-12-07T04:24:34Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "d7An-_j0kWdwUpNT7Pq9aXsvLRo",
+      "id": "UgwGBbJdXSFjvbCwXK14AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "4qEj0ev_rbX7EqRMI8gH_pMTJik",
+          "id": "UgwGBbJdXSFjvbCwXK14AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "매일매일 한 걸음씩 열심히 하겠습니다",
+            "textOriginal": "매일매일 한 걸음씩 열심히 하겠습니다",
+            "authorDisplayName": "@CRAZYGREAPA",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZR-MbcLOb-RPOIxFEIGVjf_y24oJrnCOy5_1g=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@CRAZYGREAPA",
+            "authorChannelId": {
+              "value": "UCNQAoLEv87L7NgUp4We3HIg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1485,
+            "publishedAt": "2023-11-15T13:56:27Z",
+            "updatedAt": "2023-11-15T13:56:27Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 9,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "jWitCwAlUHarakwDVEJTbpza6zA",
+      "id": "UgwHGR7d9Nn3Wb2FDo94AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Jn1OLg6oy2gp7zktPiAhTMpGAlo",
+          "id": "UgwHGR7d9Nn3Wb2FDo94AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "1.도전 실천 2. 할려고 하는 노력 3. 성공했다 여유 그걸 야무지게 표현해서 매일 매일 보고 있습니다",
+            "textOriginal": "1.도전 실천 2. 할려고 하는 노력 3. 성공했다 여유 그걸 야무지게 표현해서 매일 매일 보고 있습니다",
+            "authorDisplayName": "@tube-dl2gm",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/8J2fK9RYImbA0vWHr81DiCXaytIQLshQSnTwERvGdtoNkTfzUwqIl8zpq4rETf-Xw600AVsNWA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@tube-dl2gm",
+            "authorChannelId": {
+              "value": "UCb-emTRKui2Tpuj4R7WGHMw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 19,
+            "publishedAt": "2023-11-18T01:09:36Z",
+            "updatedAt": "2023-11-18T01:09:36Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ftg4EfezZMkhDzSnWGdHWgd21X8",
+      "id": "UgwWc4FXj5uL1IUzK9h4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "6IWfvWEqZtQ9RFm-a_GlJdjWZwY",
+          "id": "UgwWc4FXj5uL1IUzK9h4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "이건...이건 최고의 영상이다\u003cbr\u003e\u003ca href=\"https://www.youtube.com/watch?v=6x3b_70jBvk&amp;t=310\"\u003e05:10\u003c/a\u003e 전까지 주변에 있는 현실도피하고 혼자 이상한짓하는 저런사람들 때문에 공감되서 속쓰렸는데\u003cbr\u003e결말보고 개비스콘\u003cbr\u003e다들 결말처럼 결과로만 보여주면 좋겠어요",
+            "textOriginal": "이건...이건 최고의 영상이다\n05:10 전까지 주변에 있는 현실도피하고 혼자 이상한짓하는 저런사람들 때문에 공감되서 속쓰렸는데\n결말보고 개비스콘\n다들 결말처럼 결과로만 보여주면 좋겠어요",
+            "authorDisplayName": "@hwihwi6584",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRLHhA8mlHBwbOSF1h1WKivbh6RZdkmzzJsPg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@hwihwi6584",
+            "authorChannelId": {
+              "value": "UCpupgIeA2tNmBjKh5leOebw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 11,
+            "publishedAt": "2023-12-09T11:24:04Z",
+            "updatedAt": "2023-12-09T11:24:04Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "WukZFEY4Fx7xdDFxL-05lxMDvBo",
+      "id": "UgznJnCXKPnOTC_CDCV4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "G9MTr3laukLel_Fvjkzx707oZ9A",
+          "id": "UgznJnCXKPnOTC_CDCV4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "와 처음엔 그냥 재미로 봤는데 뭔가 갈수록 ㄹㅇ 동기부여로 되네 그리고 영상퀄도 ㄷㄷ,..",
+            "textOriginal": "와 처음엔 그냥 재미로 봤는데 뭔가 갈수록 ㄹㅇ 동기부여로 되네 그리고 영상퀄도 ㄷㄷ,..",
+            "authorDisplayName": "@siege634",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQabogiLWhF4VfCX5YWGWp4uy28TWqxgWDK_pblvw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@siege634",
+            "authorChannelId": {
+              "value": "UCtI54iFZdpeAw18jewihFLg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 4,
+            "publishedAt": "2023-11-19T12:37:23Z",
+            "updatedAt": "2023-11-19T12:37:23Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "VylbDBujXQN1X99moiT97mCqM-g",
+      "id": "UgyqH5i6A1H_7S8JVFx4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "6r7WEZDtl2LubJf_V65JHfelzuY",
+          "id": "UgyqH5i6A1H_7S8JVFx4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "너덜트는 \u003cbr\u003e현실구현 영상을 하는 여러 채널들 중에 단연코 탑 급이다. \u003cbr\u003e이번 영상도 너무 재밌게 봤어요",
+            "textOriginal": "너덜트는 \n현실구현 영상을 하는 여러 채널들 중에 단연코 탑 급이다. \n이번 영상도 너무 재밌게 봤어요",
+            "authorDisplayName": "@jsshin6517",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQ9q_G9DM7zA9XhJXf62NdhwBC9Vmm3kxOdSA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@jsshin6517",
+            "authorChannelId": {
+              "value": "UCfvRIGRJ3OC3ri_-zxjf0tA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 6,
+            "publishedAt": "2023-11-17T12:16:01Z",
+            "updatedAt": "2023-11-17T12:16:01Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "hqmp_vVDDeGwbXcG1XJGxZbh98w",
+      "id": "Ugz_05CF_y96edX9m314AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "6CqHmKsFIUjW6hc4mlZFLR2MVds",
+          "id": "Ugz_05CF_y96edX9m314AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "ㅋㅋ 작심 삼일이라고 포기하지 않으면 모여서 90일이 될 수도 잇다는게 크으~\u003cbr\u003e최고의 동기부여는 내 상황이 엿됏음을 인지하는 것이라는 명언까지 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+            "textOriginal": "ㅋㅋ 작심 삼일이라고 포기하지 않으면 모여서 90일이 될 수도 잇다는게 크으~\n최고의 동기부여는 내 상황이 엿됏음을 인지하는 것이라는 명언까지 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+            "authorDisplayName": "@_b1w053",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/EhKwhgKQa1J8ZSZ7O_nHvWA4wGXckloVei72gBfbsgO9SKZclye0sIXOiKVNMEKliPVC0cq_rQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@_b1w053",
+            "authorChannelId": {
+              "value": "UCqQPPrMHYw-CkTSmG_SzM9g"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 3,
+            "publishedAt": "2024-01-07T12:12:55Z",
+            "updatedAt": "2024-01-07T12:12:55Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "zjXWKJBwj3LTX_2wGczcwyRx4C8",
+      "id": "Ugw2IEB_t2TW_1VXaGx4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ay-1BnCsR9IST-l2k7G27byrvU4",
+          "id": "Ugw2IEB_t2TW_1VXaGx4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "유튜브로 누워서 동기부여 영상보고 혼자 뿌듯해서 \u003cbr\u003e한 1~3분 도파민에 절여져 있다가 바로 다음 유튜브 영상 보는 \u003cbr\u003e사람들이면 개추 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+            "textOriginal": "유튜브로 누워서 동기부여 영상보고 혼자 뿌듯해서 \n한 1~3분 도파민에 절여져 있다가 바로 다음 유튜브 영상 보는 \n사람들이면 개추 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+            "authorDisplayName": "@user-dd9ve2uz3q",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZS-jVWKMp6kAxeH6W8WL8aJB3KHF1SuhZfW5lH-Eg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-dd9ve2uz3q",
+            "authorChannelId": {
+              "value": "UCuty8wA9NeBf32kJrOM_OoA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 2301,
+            "publishedAt": "2023-11-15T19:45:02Z",
+            "updatedAt": "2023-11-16T12:20:22Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 20,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "liWfv4KqMrKIGkn3faLi1AkOi2o",
+      "id": "UgznjJbj7yhvBMGsn014AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "KTjpM_GpsZ3p4fNv0N81cdlgoQI",
+          "id": "UgznjJbj7yhvBMGsn014AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "요즘 시류가 괜찮은 것들도 풍자랍시고 욕하는 영상이 많아서 마음이 안좋았는데, 이번 영상도 동기부여 영상들을 까는건가 하지만 너덜트 좋아해서 봐야지 하고 봤는데 마지막 결말이 결국 해내고 해낼수있음을 상기해주는 결말이라 눈물이 흘렀습니다 올해 본 영상 중 제 인생 최고의 영상이었네요",
+            "textOriginal": "요즘 시류가 괜찮은 것들도 풍자랍시고 욕하는 영상이 많아서 마음이 안좋았는데, 이번 영상도 동기부여 영상들을 까는건가 하지만 너덜트 좋아해서 봐야지 하고 봤는데 마지막 결말이 결국 해내고 해낼수있음을 상기해주는 결말이라 눈물이 흘렀습니다 올해 본 영상 중 제 인생 최고의 영상이었네요",
+            "authorDisplayName": "@user-y37dFj82eS5",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQU5-5QAfFa-Jf-j8AbOgUffSz5YFirkDxzdakHRLu3QLpwiFsp1OMRbhcrChS8=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-y37dFj82eS5",
+            "authorChannelId": {
+              "value": "UCV2By1z_Ovn1D_zmb1mUF4Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 6,
+            "publishedAt": "2023-11-20T13:56:20Z",
+            "updatedAt": "2023-11-20T13:56:20Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "b7ntfdRijAL-Yzn71z1erDx4-8g",
+      "id": "Ugw_aOQs9Xb5BRgn8NZ4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "9c0Sl0pP965ftKX2LnZc_hjpHCk",
+          "id": "Ugw_aOQs9Xb5BRgn8NZ4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "진지와 해학을 진짜 잘섞었다..",
+            "textOriginal": "진지와 해학을 진짜 잘섞었다..",
+            "authorDisplayName": "@danchoo3501",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/TprAkecaYgLePkrzYINTMS6ul4VXWLowa8UbgoLeUEHCTzJHHV4CaD4ATmtjX31mPTNXImZw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@danchoo3501",
+            "authorChannelId": {
+              "value": "UCDIeW1I8WDnstnaHRwDv3qw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 10,
+            "publishedAt": "2023-11-17T12:01:36Z",
+            "updatedAt": "2023-11-17T12:01:36Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "COSYptmu1Jo-s0nfwip_2jBjT50",
+      "id": "Ugw_b7EvQlTvUrepY3Z4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "jGBAJMPjtSL5hhIPWIlKzmp4DVA",
+          "id": "Ugw_b7EvQlTvUrepY3Z4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "내 생에 최고의 동기부여는 친구(안친하던) 꾐에 다단계에 잡혀 5일간 감금되어 있으면서 들었던 강의가 최고였다. 거의 넘어갈뻔 했지... 이미 머리속에서 나는 다이아였어.",
+            "textOriginal": "내 생에 최고의 동기부여는 친구(안친하던) 꾐에 다단계에 잡혀 5일간 감금되어 있으면서 들었던 강의가 최고였다. 거의 넘어갈뻔 했지... 이미 머리속에서 나는 다이아였어.",
+            "authorDisplayName": "@user-qh7ig4eh4h",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZS1_kOZz0G12O8B7ACByxb3t999LJmCW5SMYFl6=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-qh7ig4eh4h",
+            "authorChannelId": {
+              "value": "UCIj7WJ6v10e6mIQW1M-19IA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 13,
+            "publishedAt": "2023-11-22T15:11:14Z",
+            "updatedAt": "2023-11-22T15:11:14Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "kjFnOtxhkiGKRH5Dhljd6zS5auI",
+      "id": "Ugyp64dicLo_TOVzt854AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "bklDYxiuXb2E9-ow9uOmTlckAc8",
+          "id": "Ugyp64dicLo_TOVzt854AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "이거 뭔가 너덜트 작진분들의 경험담 같기도 하네요.. 이렇게 계속 했기 때문에 유튜브에서도 성공하신 것 같습니다 저도 지금 주말에 일 해야 하는데 동기부여받아서 열심히 꾸역꾸역 해볼게요😂",
+            "textOriginal": "이거 뭔가 너덜트 작진분들의 경험담 같기도 하네요.. 이렇게 계속 했기 때문에 유튜브에서도 성공하신 것 같습니다 저도 지금 주말에 일 해야 하는데 동기부여받아서 열심히 꾸역꾸역 해볼게요😂",
+            "authorDisplayName": "@LucyEstel",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/1F22ABLHkaNQm4-hKeSA4mZRofM2u4NAAt0KOEd6H-hn6J1N4wz-sAGvAhvo_KFDuzVseyXC=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@LucyEstel",
+            "authorChannelId": {
+              "value": "UC6jbz9LWrPZzyn8elz7N_dg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 12,
+            "publishedAt": "2023-11-18T23:51:11Z",
+            "updatedAt": "2023-11-18T23:51:11Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "yTELXlAeQDHPh2h_zsU4JcT6CYY",
+      "id": "UgzsqBJxUCxA0oAtge54AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "HYofk40htvZhQotKi8FPrJr3kUw",
+          "id": "UgzsqBJxUCxA0oAtge54AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "동기부여 중독ㅋㅋㅋㅋㅋ 수능 10일 남았을때부터 동기부여영상봤다가 중독되서 수능끝난 지금까지 하루에 한번씩은 보고있네요ㅋㅋ",
+            "textOriginal": "동기부여 중독ㅋㅋㅋㅋㅋ 수능 10일 남았을때부터 동기부여영상봤다가 중독되서 수능끝난 지금까지 하루에 한번씩은 보고있네요ㅋㅋ",
+            "authorDisplayName": "@lsb3920",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/rR7UyakhuV3nclqlp7tgh0DzHHcvyRd74X256nDJKIH2Bzrbu1z517Nq9xfpXAKSTQBVTb8g=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@lsb3920",
+            "authorChannelId": {
+              "value": "UCHf0d3FsV880lADXiz1EENg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 3,
+            "publishedAt": "2023-11-19T13:07:43Z",
+            "updatedAt": "2023-11-19T13:07:43Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "P03rW5JGtURNIvZxUvmV-xWJWtU",
+      "id": "UgwQvRPdISUeYAij6el4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "NPnwaYVe7lfL6R_Ngt8BWLWS1Uc",
+          "id": "UgwQvRPdISUeYAij6el4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "개인적으로 올해 최고의 동기부여 영상 중 하나입니다. 동기부여 영상들을 까는 게 아닌 영상만 보는 사람들을 까는 동시에, 끝까지 포기하지 말란 교훈도 주시는 것 같네요.",
+            "textOriginal": "개인적으로 올해 최고의 동기부여 영상 중 하나입니다. 동기부여 영상들을 까는 게 아닌 영상만 보는 사람들을 까는 동시에, 끝까지 포기하지 말란 교훈도 주시는 것 같네요.",
+            "authorDisplayName": "@ulma_",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/kcg-JZava77mRQtL90J579AKGlz0y09fN3TjvRgi_0GVUCl-f4e0-_HIoRWAL0YV218nzwNg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ulma_",
+            "authorChannelId": {
+              "value": "UChTVG8G9YaVaQAVvbElsPgA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 726,
+            "publishedAt": "2023-11-16T14:00:41Z",
+            "updatedAt": "2023-11-16T14:00:41Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 3,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "HA4ELS3vlJqsSRfmj_pkrLUHKMs",
+      "id": "UgyOlHfEMy1_RAxL_M94AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "VZbq6O3Ew88kTpVc_x7-P2Qh5Q8",
+          "id": "UgyOlHfEMy1_RAxL_M94AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "대학 졸업예정이라 2월까지 자의적으로 계획 세우고 오늘 할 것도 다 못할 때 죄악감을 느꼈는데 결국 방향이 틀리지 않았음에 잠시 위로하며 동시에 ㅈ됫음을 알게해준 너덜트에게 감사인사 올립니다.",
+            "textOriginal": "대학 졸업예정이라 2월까지 자의적으로 계획 세우고 오늘 할 것도 다 못할 때 죄악감을 느꼈는데 결국 방향이 틀리지 않았음에 잠시 위로하며 동시에 ㅈ됫음을 알게해준 너덜트에게 감사인사 올립니다.",
+            "authorDisplayName": "@user-xm8yz9we4n",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/uVivLqsQTW_-5BwqvlJjPWGklC1uEmHVy-e7ale1sBzjzDHA5qsMA_LQoaRq_9KbmJqqzYmw3w=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-xm8yz9we4n",
+            "authorChannelId": {
+              "value": "UC5M_QoQfhgSxVzuqR78g9jg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-01-13T03:20:34Z",
+            "updatedAt": "2024-01-13T03:20:34Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "dpPAFe9dc34ogfnm6b5NTplNIik",
+      "id": "Ugz3io2vibV029bkM1p4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "GLoAsv7_B5Y-NY8D7d0JuR5Ncks",
+          "id": "Ugz3io2vibV029bkM1p4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "동기부여 영상들 물론 도움이 되는건 맞지만 뻔하고 지루한데 여기서 한번 꺾어서 감명을 주네 진짜 너덜트 사랑해",
+            "textOriginal": "동기부여 영상들 물론 도움이 되는건 맞지만 뻔하고 지루한데 여기서 한번 꺾어서 감명을 주네 진짜 너덜트 사랑해",
+            "authorDisplayName": "@maryyy000",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/_ypNcy38slfFTgXnxcN9CAgSx9qO-s5O3KaPjM8bYAWZgTAkDZbN2O56eOMFyBkOUx_bdVQiER0=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@maryyy000",
+            "authorChannelId": {
+              "value": "UCiwjP6GSgolmr6hJTsH1UrA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-12-27T02:42:04Z",
+            "updatedAt": "2023-12-27T02:42:04Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "lA4R6SmtUnZQxYW4MSK_QIiuSJ0",
+      "id": "UgxKAWI1khIgOX1jOSZ4AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "LAdKiMMFiaHeVsicpDjxTLXUmmc",
+          "id": "UgxKAWI1khIgOX1jOSZ4AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "우와.. 완전 공감 가는 말이 많은데요.. 저도 취업이 안되서 너무 힘들었는데 이거 보니 동기부여가 생기네요.. 좀만 더 힘낼려고요.. 남들보다 늦는다고 생각은 들지만 노력하다보면 좋은 결과 얻을수 있겠죠",
+            "textOriginal": "우와.. 완전 공감 가는 말이 많은데요.. 저도 취업이 안되서 너무 힘들었는데 이거 보니 동기부여가 생기네요.. 좀만 더 힘낼려고요.. 남들보다 늦는다고 생각은 들지만 노력하다보면 좋은 결과 얻을수 있겠죠",
+            "authorDisplayName": "@user-rm8uh4sj4x",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/LsMNwugvSab_SWvX9sCjGEOFvWJOEy3G1BnBkqgO91DdeK711a44meX3dUnjhvSpxNuuwMYBQCU=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-rm8uh4sj4x",
+            "authorChannelId": {
+              "value": "UCnW0FT7-yo6ktpOh5OiBcJg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 2,
+            "publishedAt": "2023-11-21T01:42:22Z",
+            "updatedAt": "2023-11-21T01:42:22Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "FT1rFlJZgJypHRWBfo2D9i5f8k8",
+      "id": "Ugy_WxYinKj7boLMQb54AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "YHL8OM4WvoTo8UEU8TOfWHSceE4",
+          "id": "Ugy_WxYinKj7boLMQb54AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "와...진짜 이 영상을 보고 동기부여를 제대로 받고 갑니다! 감사합니다!\u003cbr\u003e앞으로 운동을 시간이 남을 때마다 이 영상을 생각하면 되겠습니다! 감사합니다!",
+            "textOriginal": "와...진짜 이 영상을 보고 동기부여를 제대로 받고 갑니다! 감사합니다!\n앞으로 운동을 시간이 남을 때마다 이 영상을 생각하면 되겠습니다! 감사합니다!",
+            "authorDisplayName": "@user-oh3it8bf9y",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRBnTtqqGkP9CcTp8QmWuQMRO3ebFsv1HXCKQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-oh3it8bf9y",
+            "authorChannelId": {
+              "value": "UCgHExBM0BxLe5fi6Mi0sa4g"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-01-15T00:23:13Z",
+            "updatedAt": "2024-01-15T00:23:13Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "7zes2AQqExSh_nFtr8b3lHyGIwk",
+      "id": "Ugy8P8_nbHfJoAKcmL94AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "9FC8sCCIbRKI9w5xjHtyCyk2oF4",
+          "id": "Ugy8P8_nbHfJoAKcmL94AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "안녕하세요 운동 동기부여로 컨텐츠 제작하고 있습니다! 저도 방금 이 영상 보면서 내가 하고 있는 방향이 희화화 되는 것은 아닌지 걱정하며 보고 있는 중에 감사한 결말로 이어져 많은 귀감이 되었습니다. 좋은 영향력 감사합니다 :)",
+            "textOriginal": "안녕하세요 운동 동기부여로 컨텐츠 제작하고 있습니다! 저도 방금 이 영상 보면서 내가 하고 있는 방향이 희화화 되는 것은 아닌지 걱정하며 보고 있는 중에 감사한 결말로 이어져 많은 귀감이 되었습니다. 좋은 영향력 감사합니다 :)",
+            "authorDisplayName": "@baeyfitz",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/tuI9GgMS0hY5z6YQ8REPg90jqNiISGQ7NoamP4FossaAcK34_TnJXzcsIJfXo2zpOAmoWHh6oA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@baeyfitz",
+            "authorChannelId": {
+              "value": "UCvFhZFZMJUqSCrwhJMJQYzw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 8,
+            "publishedAt": "2023-11-20T09:23:28Z",
+            "updatedAt": "2023-11-20T09:23:28Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "be97pfKm0WwBvKXim_qZa1LEO2M",
+      "id": "UgwrIpNZ3dO3sOeMr514AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "3sfJ69yi3iNlahOyIz4r1AopVe8",
+          "id": "UgwrIpNZ3dO3sOeMr514AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "진짜 요새 이런 짧은 호흡 클립 중에 이렇게 메시지를 잘 담는 채널 희귀하다…..",
+            "textOriginal": "진짜 요새 이런 짧은 호흡 클립 중에 이렇게 메시지를 잘 담는 채널 희귀하다…..",
+            "authorDisplayName": "@tdfgyff",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRJauD87efeuAinqrs1dSbQuhlqL17AJKg5V6elan_GpmYptgza8uj1oxV_B6bCD_6-igc=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@tdfgyff",
+            "authorChannelId": {
+              "value": "UC__vh6Nyxw9r9Glw32BzZzA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 978,
+            "publishedAt": "2023-11-16T02:56:35Z",
+            "updatedAt": "2023-11-16T02:56:35Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 5,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "xW2axxfSEAsb7iocGovT3U9RC1w",
+      "id": "UgxFG-KgpODchlZN2d14AaABAg",
+      "snippet": {
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "videoId": "6x3b_70jBvk",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "26Rht02FuM7P6FKaF8qFJK8TNJU",
+          "id": "UgxFG-KgpODchlZN2d14AaABAg",
+          "snippet": {
+            "channelId": "UCXEKwWflysXu312NmIP_dlw",
+            "videoId": "6x3b_70jBvk",
+            "textDisplay": "유현규감독님 매 작품마다 감탄을 하게 만드네요.. ㅋㅋ 존경스럽습니다",
+            "textOriginal": "유현규감독님 매 작품마다 감탄을 하게 만드네요.. ㅋㅋ 존경스럽습니다",
+            "authorDisplayName": "@qoqkrcant1756",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQMtQPrKv8XqIN6NlrtXPrIllQ6sXwugwLdpw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@qoqkrcant1756",
+            "authorChannelId": {
+              "value": "UCl_t2fZfTbBEeGMwByb--vA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 10,
+            "publishedAt": "2023-11-18T11:40:07Z",
+            "updatedAt": "2023-11-18T11:40:07Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    }
+  ]
+}

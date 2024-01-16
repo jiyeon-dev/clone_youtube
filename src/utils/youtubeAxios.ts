@@ -67,3 +67,42 @@ export const getChannelDetailList = async (params: SearchOption) => {
   });
   return response.data;
 };
+
+/**
+ * 비디오 댓글 검색
+ *
+ * @param params 검색 조건
+ * @returns 댓글 목록
+ */
+export const getCommentList = async (params: SearchOption) => {
+  const defaultParams: SearchOption = {
+    part: 'snippet', // id,snippet,replies
+    order: 'relevance', // relevance, time
+    maxResults: 50,
+  };
+  const newParams: SearchOption = Object.assign(defaultParams, params);
+  const response = await client.get(makeURL('/commentThreads'), {
+    params: newParams,
+  });
+  return response.data;
+};
+
+/**
+ * 비디오 댓글의 답글 목록 검색
+ *
+ * @param params 검색 조건
+ * @returns 답글 목록
+ */
+export const getReplyList = async (params: SearchOption) => {
+  const defaultParams: SearchOption = {
+    part: 'replies', // id,snippet,replies
+    maxResults: 50,
+  };
+
+  const url = isTestMode ? makeURL('/replies') : makeURL('/commentThreads');
+  const newParams: SearchOption = Object.assign(defaultParams, params);
+  const response = await client.get(url, {
+    params: newParams,
+  });
+  return response.data;
+};

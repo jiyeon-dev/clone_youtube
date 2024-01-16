@@ -94,3 +94,63 @@ export const bindVideoInfo = (item) => {
     concurrentViewers: item?.liveStreamingDetails?.concurrentViewers || 0, // 실시간 시청자 수
   };
 };
+
+/**
+ * 댓글 데이터 바인딩
+ * @param {} item
+ */
+export const bindCommentInfo = (item) => {
+  return {
+    id: item?.id,
+    videoId: item?.snippet.videoId,
+    textDisplay: item?.snippet?.topLevelComment?.snippet.textDisplay,
+    textOriginal: item?.snippet?.topLevelComment?.snippet.textOriginal,
+
+    channel: {
+      id: item?.snippet.channelId,
+    },
+    author: {
+      id: item?.snippet?.topLevelComment.snippet.authorChannelId.value,
+      name: item?.snippet?.topLevelComment.snippet.authorDisplayName,
+      img: item?.snippet?.topLevelComment.snippet.authorProfileImageUrl,
+      url: item?.snippet?.topLevelComment.snippet.authorChannelUrl,
+    },
+
+    likeCount: item?.snippet?.topLevelComment.snippet.likeCount,
+    dislikeCount: item?.snippet?.topLevelComment.snippet.dislikeCount,
+
+    publishedAt: item?.snippet?.topLevelComment.snippet.publishedAt,
+    updatedAt: item?.snippet?.topLevelComment.snippet.updatedAt,
+    totalReplyCount: item?.snippet.totalReplyCount,
+  };
+};
+
+/**
+ * 답글 데이터 바인딩
+ * @param {} item
+ */
+export const bindReplyInfo = (item) => {
+  return {
+    id: item?.id,
+    parentId: item?.snippet?.parentId,
+    videoId: item?.snippet.videoId,
+    textDisplay: item?.snippet?.textDisplay,
+    textOriginal: item?.snippet?.textOriginal,
+
+    channel: {
+      id: item?.snippet.channelId,
+    },
+    author: {
+      id: item?.snippet?.authorChannelId.value,
+      name: item?.snippet?.authorDisplayName,
+      img: item?.snippet?.authorProfileImageUrl,
+      url: item?.snippet?.authorChannelUrl,
+    },
+
+    likeCount: item?.snippet?.likeCount,
+    dislikeCount: item?.snippet?.dislikeCount,
+
+    publishedAt: item?.snippet?.publishedAt,
+    updatedAt: item?.snippet?.updatedAt,
+  };
+};

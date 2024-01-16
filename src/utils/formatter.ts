@@ -75,7 +75,7 @@ export const formatDate = (dt: Date): string => {
   if (years > 0) {
     return `${years}년 전`;
   } else if (months > 0) {
-    return `${months}달 전`;
+    return `${months}개월 전`;
   } else if (days > 0) {
     return `${days}일 전`;
   } else if (hours > 0) {

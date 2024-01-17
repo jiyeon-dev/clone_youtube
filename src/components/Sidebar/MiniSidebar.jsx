@@ -4,9 +4,13 @@ import SidebarItem from './SidebarItem';
 const MiniSidebar = () => {
   return (
     <MiniSidebarWrapper size="mini" className="mini">
-      <SidebarItem type="home" title="홈" />
-      <SidebarItem type="subscriptions" title="구독" />
-      <SidebarItem type="you" title="나" />
+      <SidebarItem type="home" title="홈" url="/" />
+      <SidebarItem
+        type="subscriptions"
+        title="구독"
+        url="/feed/subscriptions"
+      />
+      <SidebarItem type="you" title="나" url="/feed/you" />
     </MiniSidebarWrapper>
   );
 };

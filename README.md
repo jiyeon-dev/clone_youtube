@@ -53,7 +53,7 @@ $ npm run dev
 - [x] 검색하면 results 페이지로 이동
 - [x] Result 페이지 생성
 - [x] Video 상세 페이지 - 비디오 및 비디오 상세 정보 표시
-- [ ] Video 상세 페이지 - 우측 관련 목록 생성
+- [x] Video 상세 페이지 - 우측 관련 목록 생성
 - [x] Video 상세 페이지 - 댓글
 
 ## 개발 중 고민 사항
@@ -83,6 +83,13 @@ $ npm run dev
 - div 에 YT.Player를 설정한 경우, `div` 가 `iframe` 으로 변경되기 때문에 이벤트 감지가 제대로 되지 않음. 그렇다고, `Thumbnail`태그에 하면 YT.Player를 저장한 `player` 객체가 null 로 표시되어 제대로 되지 않음.
 - 그래서, `iframe` 를 직접 만들고, src 에 playerVars 값들을 설정해서 해결하였다. (iframe 으로 한 경우 playerVars 값을 인식하지 못함.)
 - 하지만, Youtube Iframe API 불러오는 속도가 너무 느리다. 방법이 필요하다. 그래서 검색 결과 목록(Result)페이지에만 먼저 적용시킴.
+
+> [ Youtube API 문제 ]
+
+- API 로는 다양한 쿼리 테스트가 불가능 하다.
+  - watched video(감상한 동영상) 리스트 조회 불가능
+  - 관련 동영상 조회 불가능
+  - 등등...
 
 ## 관련 참고 문서
 

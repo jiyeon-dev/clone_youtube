@@ -7,17 +7,27 @@ import { MdAccessTime, MdAccessTimeFilled } from 'react-icons/md'; // 나중에 
 import { AiOutlineLike, AiFillLike } from 'react-icons/ai'; // 좋아요
 import { GoPlusCircle } from 'react-icons/go'; // 채널 탐색 (fill 없음)
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
+import { useNavigate } from 'react-router-dom';
 
-const SidebarItem = ({ type, title, keyCode, reverse }) => {
+const SidebarItem = ({ type, title, keyCode, reverse, url }) => {
+  const navigate = useNavigate();
+
   // 현재 URL 로 메뉴 활성화
-  const url = new URL(window.location.href);
-  const lastSegment = url.pathname.substring(url.pathname.lastIndexOf('/') + 1);
+  const currentURL = new URL(window.location.href);
+  const lastSegment = currentURL.pathname.substring(
+    currentURL.pathname.lastIndexOf('/') + 1,
+  );
   const isActive = (!lastSegment && type === 'home') || type === lastSegment;
+
+  // 페이지 이동
+  const handleClick = (e) => {
+    navigate(url || '/');
+  };
 
   // mini 가 아닌 메뉴에서의 `나`
   if (type === 'you' && reverse) {
     return (
-      <a data-url={type}>
+      <a data-url={type} onClick={(e) => handleClick(e)}>
         <span>{title}</span>
         <MdOutlineKeyboardArrowRight size={20} />
       </a>
@@ -26,7 +36,7 @@ const SidebarItem = ({ type, title, keyCode, reverse }) => {
 
   // 그 외
   return (
-    <a data-url={type}>
+    <a data-url={type} onClick={(e) => handleClick(e)}>
       {(() => {
         switch (type) {
           case 'home':

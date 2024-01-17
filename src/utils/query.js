@@ -5,6 +5,38 @@ import {
   getChannelDetailList,
 } from './youtubeAxios';
 
+// 비디오 목록 조회
+export const searchVideo = async (option) => {
+  const response = await getVideoList(option);
+
+  // 비디오와 채널 상세 정보 조회
+  const videoIds = [];
+  const channelIds = [];
+  response.items.map((item) => {
+    if (item?.id?.videoId) videoIds.push(item.id.videoId);
+    if (item?.snippet?.channelId) channelIds.push(item.snippet.channelId);
+  });
+  const videos = await getVideoInfoList({ id: videoIds.join(',') });
+  const channels = await getChannelDetailList({
+    id: channelIds.join(','),
+  });
+
+  // 데이터 바인딩
+  response.items.forEach((item) => {
+    const videoInfo = videos.items.find((v) => v.id === item.id.videoId);
+    item.contentDetails = videoInfo?.contentDetails;
+    item.statistics = videoInfo?.statistics;
+    item.liveStreamingDetails = videoInfo.liveStreamingDetails || {};
+
+    const channelInfo = channels.items.find(
+      (c) => c.id === item.snippet.channelId,
+    );
+    item.channelDetails = channelInfo;
+  });
+
+  return response;
+};
+
 /**
  * 비디오 목록 조회
  * react-query useInfiniteQuery
@@ -17,34 +49,7 @@ export const useFetchVideoList = (queryKey, searchOption) => {
     queryKey,
     queryFn: async ({ pageParam = undefined }) => {
       const option = Object.assign({ pageToken: pageParam }, searchOption);
-      const response = await getVideoList(option);
-
-      // 비디오와 채널 상세 정보 조회
-      const videoIds = [];
-      const channelIds = [];
-      response.items.map((item) => {
-        if (item?.id?.videoId) videoIds.push(item.id.videoId);
-        if (item?.snippet?.channelId) channelIds.push(item.snippet.channelId);
-      });
-      const videos = await getVideoInfoList({ id: videoIds.join(',') });
-      const channels = await getChannelDetailList({
-        id: channelIds.join(','),
-      });
-
-      // 데이터 바인딩
-      response.items.forEach((item) => {
-        const videoInfo = videos.items.find((v) => v.id === item.id.videoId);
-        item.contentDetails = videoInfo?.contentDetails;
-        item.statistics = videoInfo?.statistics;
-        item.liveStreamingDetails = videoInfo.liveStreamingDetails || {};
-
-        const channelInfo = channels.items.find(
-          (c) => c.id === item.snippet.channelId,
-        );
-        item.channelDetails = channelInfo;
-      });
-
-      return response;
+      return await searchVideo(option);
     },
     // retryOnMount: false,
     staleTime: 360000, // default : 0 ( 매초마다 fetching 해서 서버로 부터 데이터 업데이트 함 )
@@ -152,5 +157,20 @@ export const bindReplyInfo = (item) => {
 
     publishedAt: item?.snippet?.publishedAt,
     updatedAt: item?.snippet?.updatedAt,
+  };
+};
+
+/**
+ * 구독 채널 데이터 바인딩
+ * @param {} item
+ */
+export const bindSubscriptionChannelInfo = (item) => {
+  return {
+    id: item?.snippet?.resourceId?.channelId,
+    title: item?.snippet?.title || '',
+    img: item?.snippet?.thumbnails?.default?.url || '',
+    // customUrl: item?.channelDetails?.snippet?.customUrl,
+    description: item?.snippet?.description,
+    subscriberCount: item?.channelDetails?.statistics?.subscriberCount || '0',
   };
 };

@@ -1,0 +1,88 @@
+{
+  "kind": "youtube#SubscriptionListResponse",
+  "etag": "xVXWe3KlSihx_8Rfuimk_jmGow4",
+  "pageInfo": {
+    "totalResults": 3,
+    "resultsPerPage": 40
+  },
+  "items": [
+    {
+      "kind": "youtube#subscription",
+      "etag": "0tFGGSfecrWdeDpu1aKEl98w-lQ",
+      "id": "LE5OUHaWdRFBuTDc4kqDgYhNk0Cm0L9K-Gdjoo8mpG0",
+      "snippet": {
+        "publishedAt": "2023-12-18T17:58:02.56957Z",
+        "title": "Fastrack IELTS",
+        "description": "Hi there, I'm Asiya! Today my IELTS is 8.5, I call London home and my goal is to help you pass your IELTS exam as quickly as possible.\n\nTen years ago I lived in Kazakhstan and studying in the UK was my dream. Back then I managed to achieve Band 7.5 in the IELTS Academic test on the first attempt and was accepted by the university of my choice.\n\nSince then, I have completed my master's degree in London with distinction, worked at one of the UK’s largest banks, and founded FasTrack IELTS to help others achieve their dreams.\n\nHaving dedicated the last six years to researching the IELTS exam, I have learned a great deal about how to tackle it best. During this time, over ten thousand students have taken my online courses and over 50 million lessons have been watched on Youtube. Let me help you pass your exam. Ready? Let's get started!\n\nhttps://fastrackielts.com",
+        "resourceId": {
+          "kind": "youtube#channel",
+          "channelId": "UCRA4UOCBRgv2w9b59pDMyvQ"
+        },
+        "channelId": "UCgztHYtHwig86RZV4sRT-tg",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AIf8zZQ8AxBeXRdCDXtEvk5MTIx2o1JZmrymVesmGNyXPg=s88-c-k-c0x00ffffff-no-rj"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AIf8zZQ8AxBeXRdCDXtEvk5MTIx2o1JZmrymVesmGNyXPg=s240-c-k-c0x00ffffff-no-rj"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AIf8zZQ8AxBeXRdCDXtEvk5MTIx2o1JZmrymVesmGNyXPg=s800-c-k-c0x00ffffff-no-rj"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#subscription",
+      "etag": "rUBy0LlwQDtjTkWMmreaNU0XivA",
+      "id": "LE5OUHaWdRHmpVuWhSTK9BFkDGhWdpo16aDGOTkxm2s",
+      "snippet": {
+        "publishedAt": "2023-12-21T15:03:08.793968Z",
+        "title": "제임스 잉글리쉬 TV",
+        "description": "",
+        "resourceId": {
+          "kind": "youtube#channel",
+          "channelId": "UCtjmx0MEunmAW3zx6yV3N2g"
+        },
+        "channelId": "UCgztHYtHwig86RZV4sRT-tg",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/6cPlTTsUiHRKIa2uJbTzp-zPC5Rq7Dw9htbSO5BDAnqloX2c8KSCCebS1a6r1JoAH5HrkJZgUA=s88-c-k-c0x00ffffff-no-rj"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/6cPlTTsUiHRKIa2uJbTzp-zPC5Rq7Dw9htbSO5BDAnqloX2c8KSCCebS1a6r1JoAH5HrkJZgUA=s240-c-k-c0x00ffffff-no-rj"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/6cPlTTsUiHRKIa2uJbTzp-zPC5Rq7Dw9htbSO5BDAnqloX2c8KSCCebS1a6r1JoAH5HrkJZgUA=s800-c-k-c0x00ffffff-no-rj"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#subscription",
+      "etag": "WakkenhkEU1c6E2nyyFDpu4UZpQ",
+      "id": "LE5OUHaWdRHDUAkaChosWrjp1MxmEixvQZM-2nauaqU",
+      "snippet": {
+        "publishedAt": "2022-12-30T05:47:19.240814Z",
+        "title": "Lama Dev",
+        "description": "Web development tutorials for everyone. Learn JavaScript, React.js, Node.js, and find inspiration for HTML, CSS, and web design with Lama and become a web developer.\n\nSocial Media:\nFacebook: https://www.facebook.com/groups/lamadev\nInstagram: https://www.instagram.com/lamawebdev\nDiscord: https://discord.gg/yKremu4mPr\nTwitter: https://twitter.com/lamaWebDev\n\nFor business inquiries:\ncontact@lama.dev",
+        "resourceId": {
+          "kind": "youtube#channel",
+          "channelId": "UCOxWrX5MIdXIeRNaXC3sqIg"
+        },
+        "channelId": "UCgztHYtHwig86RZV4sRT-tg",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AIf8zZQjMbV3-9TaCwDvPAcpnLZpBottwufJjkYb2GAr=s88-c-k-c0x00ffffff-no-rj"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AIf8zZQjMbV3-9TaCwDvPAcpnLZpBottwufJjkYb2GAr=s240-c-k-c0x00ffffff-no-rj"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AIf8zZQjMbV3-9TaCwDvPAcpnLZpBottwufJjkYb2GAr=s800-c-k-c0x00ffffff-no-rj"
+          }
+        }
+      }
+    }
+  ]
+}

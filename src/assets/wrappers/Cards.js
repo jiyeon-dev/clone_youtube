@@ -109,12 +109,15 @@ export const VerticalCardsWrapper = styled.div`
 
 export const VerticalCard = styled.div`
   position: relative;
-  width: calc(25% - 20px); /* 33.33% width with 20px margin */
+  width: calc(20% - 20px); /* 5개 */
   margin: 10px;
   overflow: hidden;
   cursor: pointer;
 
   /* 윈도우 사이즈에 따른 card 수 변경 */
+  @media screen and (max-width: 1750px) {
+    width: calc(25% - 20px); /* 4개 */
+  }
   @media screen and (max-width: 1190px) {
     width: calc(33.33% - 20px); /* 3개 */
   }

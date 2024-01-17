@@ -46,9 +46,6 @@ export const useGlobalContext = () => useContext(AppContext);
 const SearchContext = createContext({});
 export const SearchProvider = ({ children }: { children: React.ReactNode }) => {
   const [searchOption, setSearchOption] = useState({});
-  const [queryKey, setQueryKey] = useState(null);
-
-  const resetQueryKey = (queryKey: Array<string>) => {};
 
   return (
     <SearchContext.Provider

@@ -19,6 +19,7 @@ export interface SearchOption {
   regionCode?: 'kr';
   videoSyndicated?: boolean;
   order?: string;
+  mine?: boolean;
 }
 
 export interface YVideoDataList extends Result {

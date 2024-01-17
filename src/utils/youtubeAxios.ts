@@ -24,15 +24,18 @@ const client = axios.create({
 export const getVideoList = async <YVideoDataList>(
   params: SearchOption,
 ): Promise<YVideoDataList | AxiosError> => {
-  params.part = 'snippet';
-  params.type = 'video';
-  params.maxResults = 20;
-  params.regionCode = 'kr';
-  params.videoSyndicated = true;
+  const defaultParams: SearchOption = {
+    part: 'snippet', // id,snippet,replies
+    type: 'video',
+    maxResults: 20,
+    regionCode: 'kr',
+    videoSyndicated: true,
+  };
 
-  console.log(params);
+  const newParams: SearchOption = Object.assign(defaultParams, params);
+  console.log(newParams);
   const response = await client.get<YVideoDataList>(makeURL('/search'), {
-    params,
+    params: newParams,
   });
 
   return response.data;
@@ -102,6 +105,26 @@ export const getReplyList = async (params: SearchOption) => {
   const url = isTestMode ? makeURL('/replies') : makeURL('/commentThreads');
   const newParams: SearchOption = Object.assign(defaultParams, params);
   const response = await client.get(url, {
+    params: newParams,
+  });
+  return response.data;
+};
+
+/**
+ * 구독 채널 리스트 조회
+ *
+ * @param params 검색 조건
+ * @returns 채널 목록
+ */
+export const getSubscriptions = async (params: SearchOption) => {
+  const defaultParams: SearchOption = {
+    part: 'snippet',
+    maxResults: 20,
+    mine: true,
+  };
+
+  const newParams: SearchOption = Object.assign(defaultParams, params);
+  const response = await client.get(makeURL('/subscriptions'), {
     params: newParams,
   });
   return response.data;

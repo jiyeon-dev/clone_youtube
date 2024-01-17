@@ -7,8 +7,9 @@ import {
 } from '../../../assets/wrappers/Watch/Comment';
 import { BsFilterLeft } from 'react-icons/bs';
 import { useRef, useEffect, useState } from 'react';
+import { formatComma } from '../../../utils/formatter';
 
-const VideoCommentHeader = () => {
+const VideoCommentHeader = ({ commentCount = 0 }) => {
   const [comment, setComment] = useState(null);
   const [isCommentOpen, setIsCommentOpen] = useState(false);
   const dropdownContentRef = useRef();
@@ -72,7 +73,7 @@ const VideoCommentHeader = () => {
   return (
     <CommentHeader>
       <div className="title">
-        <h2>댓글 5,023개</h2>
+        <h2>댓글 {formatComma(commentCount)}개</h2>
         <DropDown className="dropdown">
           <div className="dropdown-button" onClick={() => openDropDown()}>
             <BsFilterLeft size={24} />

@@ -6,14 +6,29 @@ import {
 } from '../../../assets/wrappers/Cards';
 import { formatDuration } from '../../../utils/formatter';
 import CompactCardMetaData from './CompactCardMetaData';
+import { useNavigate } from 'react-router-dom';
 
 const CompactCard = ({ item }) => {
   const video = bindVideoInfo(item);
   const isLive = video.isLive;
   const viewCount = (isLive ? video.concurrentViewers : video.viewCount) || NaN;
 
+  // Card 클릭 시 Watch 페이지로 이동
+  let navigate = useNavigate();
+  const handelClickCard = (videoId) => {
+    if (videoId) {
+      navigate({
+        pathname: '/watch',
+        search: `?v=${videoId}`,
+        replace: true,
+      });
+    } else {
+      console.error('can not find video id');
+    }
+  };
+
   return (
-    <Card>
+    <Card onClick={() => handelClickCard(video.id)}>
       <Thumbnail>
         <img src={video.thumbnail.url} alt={video.thumbnail.title} />
         <div className="video-duration">{formatDuration(video.duration)}</div>

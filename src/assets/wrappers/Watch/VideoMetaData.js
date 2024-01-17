@@ -13,6 +13,7 @@ const buttonStyle = css`
 
 export const VideoPrimary = styled.div`
   max-width: calc((100vh - 56px - 24px - 136px) * (16 / 9));
+  width: calc((100vh - 56px - 24px - 136px) * (16 / 9));
   min-width: calc(360px * (16 / 9));
 
   padding-top: 24px;

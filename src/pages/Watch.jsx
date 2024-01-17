@@ -6,6 +6,7 @@ import { getChannelDetailList, getVideoInfoList } from '../utils/youtubeAxios';
 import WatchPrimary from '../components/Watch/Primary';
 import WatchSecondary from '../components/Watch/Secondary';
 import { bindVideoInfo } from '../utils/query';
+import { SearchProvider } from '../context';
 
 const Watch = () => {
   const [video, setVideo] = useState({});
@@ -43,17 +44,19 @@ const Watch = () => {
     };
     youtubeApi();
     getVideoInfo();
-  }, []);
+  }, [videoId]);
 
   return (
-    <Container data-video-id={videoId}>
-      {Object.keys(video).length > 0 && (
-        <>
-          <WatchPrimary video={video} />
-          <WatchSecondary videoId={videoId} channel={video.channel} />
-        </>
-      )}
-    </Container>
+    <SearchProvider>
+      <Container data-video-id={videoId}>
+        {Object.keys(video).length > 0 && (
+          <>
+            <WatchPrimary video={video} />
+            <WatchSecondary videoId={videoId} channel={video.channel} />
+          </>
+        )}
+      </Container>
+    </SearchProvider>
   );
 };
 export default Watch;

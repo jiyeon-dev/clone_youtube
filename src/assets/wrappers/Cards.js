@@ -212,6 +212,7 @@ export const WideCard = styled.div`
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  cursor: pointer;
 
   &:not(:first-child) {
     margin-top: 16px;

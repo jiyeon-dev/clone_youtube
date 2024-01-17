@@ -174,3 +174,19 @@ export const bindSubscriptionChannelInfo = (item) => {
     subscriberCount: item?.channelDetails?.statistics?.subscriberCount || '0',
   };
 };
+
+/**
+ * 채널 데이터 바인딩
+ * @param {} item
+ * @returns
+ */
+export const bindChannelInfo = (item) => {
+  return {
+    id: item?.id,
+    title: item?.snippet?.title || '',
+    customUrl: item?.snippet?.customUrl,
+    description: item?.snippet?.description,
+    img: item?.snippet?.thumbnails?.default?.url || '',
+    subscriberCount: item?.statistics?.subscriberCount || '0',
+  };
+};

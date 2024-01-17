@@ -124,7 +124,31 @@ export const getSubscriptions = async (params: SearchOption) => {
   };
 
   const newParams: SearchOption = Object.assign(defaultParams, params);
-  const response = await client.get(makeURL('/subscriptions'), {
+
+  // 인증 정보가 필요해서, json 데이터 갖고 오도록 함.
+  const response = await client.get(
+    'http://localhost:5173/data/subscriptions.json',
+    {
+      params: newParams,
+    },
+  );
+  return response.data;
+};
+
+/**
+ * 채널 목록 검색
+ *
+ * @param params 검색 조건
+ * @returns 채널 목록
+ */
+export const getChannels = async (params: SearchOption) => {
+  const defaultParams: SearchOption = {
+    part: 'snippet,statistics',
+    maxResults: 20,
+  };
+
+  const newParams: SearchOption = Object.assign(defaultParams, params);
+  const response = await client.get(makeURL('/channels'), {
     params: newParams,
   });
   return response.data;

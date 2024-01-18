@@ -1,6 +1,13 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { HomeLayout } from './layouts';
-import { Base, Results, Watch, Subscriptions, Channels } from './pages';
+import {
+  Base,
+  Results,
+  Watch,
+  Subscriptions,
+  Channels,
+  Channel,
+} from './pages';
 
 const router = createBrowserRouter([
   {
@@ -13,13 +20,15 @@ const router = createBrowserRouter([
       },
       {
         path: 'results',
-        index: true,
         element: <Results />,
       },
       {
         path: 'watch',
-        index: true,
         element: <Watch />,
+      },
+      {
+        path: '/:customUrl/*',
+        element: <Channel />,
       },
     ],
   },

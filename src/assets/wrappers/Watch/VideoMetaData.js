@@ -98,15 +98,6 @@ export const Owner = styled(metaData)`
       font-weight: 400;
     }
   }
-
-  button#subscribe {
-    ${buttonStyle}
-    background: #0f0f0f;
-    color: var(--white);
-    border-radius: 18px;
-    padding: 0 16px;
-    font-size: 14px;
-  }
 `;
 
 export const Actions = styled(metaData)`

@@ -43,16 +43,24 @@ const WideCard = ({ item }) => {
 
   // Card 클릭 시 Watch 페이지로 이동
   let navigate = useNavigate();
-  const handelClickCard = (videoId) => {
-    if (videoId) {
-      navigate(`/watch?v=${videoId}`);
+  const handelClickCard = (e) => {
+    e.preventDefault();
+
+    if (e.target.tagName === 'A' || e.target.parentElement.tagName === 'A') {
+      const url = e.target.href || e.target.parentElement.href;
+      window.location.href = url;
     } else {
-      console.error('can not find video id');
+      const videoId = video.id;
+      if (videoId) {
+        navigate(`/watch?v=${videoId}`);
+      } else {
+        console.error('can not find video id');
+      }
     }
   };
 
   return (
-    <Card onClick={() => handelClickCard(video.id)}>
+    <Card onClick={(e) => handelClickCard(e)}>
       <Thumbnail>
         <img src={video.thumbnail.url} alt={video.thumbnail.title} />
         {/* <div className="overlay" ref={videoRef} /> */}
@@ -82,10 +90,16 @@ const WideCard = ({ item }) => {
           </span>
         </div>
         <div className="channel-info">
-          <a className="channel-thumbnail" href="/@이름">
-            <img src={video.channel.img} alt={video.channel.title} />
+          <a className="channel-thumbnail" href={`/${video.channel.customUrl}`}>
+            <img
+              src={video.channel.img}
+              alt={video.channel.title}
+              draggable={false}
+            />
           </a>
-          <span className="channel-name">{video.channel.title}</span>
+          <a className="channel-name" href={`/${video.channel.customUrl}`}>
+            {video.channel.title}
+          </a>
         </div>
         <div className="video-description">{video.channel.description}</div>
       </CardInfo>

@@ -32,3 +32,9 @@ body {
 .none {
   display: none !important;
 }
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}

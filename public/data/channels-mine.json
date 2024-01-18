@@ -1,0 +1,127 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "W8cT0gF_a9-0Moltaro7kHvivwQ",
+  "pageInfo": {
+    "totalResults": 3,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "45AQICYO3BqlkWsUxyJiWD39KQo",
+      "id": "UCRA4UOCBRgv2w9b59pDMyvQ",
+      "snippet": {
+        "title": "Fastrack IELTS",
+        "description": "Hi there, I'm Asiya! Today my IELTS is 8.5, I call London home and my goal is to help you pass your IELTS exam as quickly as possible.\n\nTen years ago I lived in Kazakhstan and studying in the UK was my dream. Back then I managed to achieve Band 7.5 in the IELTS Academic test on the first attempt and was accepted by the university of my choice.\n\nSince then, I have completed my master's degree in London with distinction, worked at one of the UK’s largest banks, and founded FasTrack IELTS to help others achieve their dreams.\n\nHaving dedicated the last six years to researching the IELTS exam, I have learned a great deal about how to tackle it best. During this time, over ten thousand students have taken my online courses and over 50 million lessons have been watched on Youtube. Let me help you pass your exam. Ready? Let's get started!\n\nhttps://fastrackielts.com\n",
+        "customUrl": "@fastrackielts",
+        "publishedAt": "2016-12-14T13:27:45Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AIf8zZQ8AxBeXRdCDXtEvk5MTIx2o1JZmrymVesmGNyXPg=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AIf8zZQ8AxBeXRdCDXtEvk5MTIx2o1JZmrymVesmGNyXPg=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AIf8zZQ8AxBeXRdCDXtEvk5MTIx2o1JZmrymVesmGNyXPg=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Fastrack IELTS",
+          "description": "Hi there, I'm Asiya! Today my IELTS is 8.5, I call London home and my goal is to help you pass your IELTS exam as quickly as possible.\n\nTen years ago I lived in Kazakhstan and studying in the UK was my dream. Back then I managed to achieve Band 7.5 in the IELTS Academic test on the first attempt and was accepted by the university of my choice.\n\nSince then, I have completed my master's degree in London with distinction, worked at one of the UK’s largest banks, and founded FasTrack IELTS to help others achieve their dreams.\n\nHaving dedicated the last six years to researching the IELTS exam, I have learned a great deal about how to tackle it best. During this time, over ten thousand students have taken my online courses and over 50 million lessons have been watched on Youtube. Let me help you pass your exam. Ready? Let's get started!\n\nhttps://fastrackielts.com\n"
+        },
+        "country": "GB"
+      },
+      "statistics": {
+        "viewCount": "79821524",
+        "subscriberCount": "1600000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "312"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "_Wtg-Qkr6-QOpwUDMnXeS8Kabv4",
+      "id": "UCOxWrX5MIdXIeRNaXC3sqIg",
+      "snippet": {
+        "title": "Lama Dev",
+        "description": "Web development tutorials for everyone. Learn JavaScript, React.js, Node.js, and find inspiration for HTML, CSS, and web design with Lama and become a web developer.\n\nSocial Media:\nFacebook: https://www.facebook.com/groups/lamadev\nInstagram: https://www.instagram.com/lamawebdev\nDiscord: https://discord.gg/yKremu4mPr\nTwitter: https://twitter.com/lamaWebDev\n\nFor business inquiries:\ncontact@lama.dev \n",
+        "customUrl": "@lamadev",
+        "publishedAt": "2021-02-13T20:00:39.293872Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AIf8zZQjMbV3-9TaCwDvPAcpnLZpBottwufJjkYb2GAr=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AIf8zZQjMbV3-9TaCwDvPAcpnLZpBottwufJjkYb2GAr=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AIf8zZQjMbV3-9TaCwDvPAcpnLZpBottwufJjkYb2GAr=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Lama Dev",
+          "description": "Web development tutorials for everyone. Learn JavaScript, React.js, Node.js, and find inspiration for HTML, CSS, and web design with Lama and become a web developer.\n\nSocial Media:\nFacebook: https://www.facebook.com/groups/lamadev\nInstagram: https://www.instagram.com/lamawebdev\nDiscord: https://discord.gg/yKremu4mPr\nTwitter: https://twitter.com/lamaWebDev\n\nFor business inquiries:\ncontact@lama.dev \n"
+        },
+        "country": "PL"
+      },
+      "statistics": {
+        "viewCount": "19537127",
+        "subscriberCount": "274000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "81"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "90Ty2qAnmAhsDTk3fdbS7I0wKD0",
+      "id": "UCtjmx0MEunmAW3zx6yV3N2g",
+      "snippet": {
+        "title": "제임스 잉글리쉬 TV",
+        "description": "",
+        "customUrl": "@jamesenglishtv",
+        "publishedAt": "2021-09-02T06:41:23.955264Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/6cPlTTsUiHRKIa2uJbTzp-zPC5Rq7Dw9htbSO5BDAnqloX2c8KSCCebS1a6r1JoAH5HrkJZgUA=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/6cPlTTsUiHRKIa2uJbTzp-zPC5Rq7Dw9htbSO5BDAnqloX2c8KSCCebS1a6r1JoAH5HrkJZgUA=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/6cPlTTsUiHRKIa2uJbTzp-zPC5Rq7Dw9htbSO5BDAnqloX2c8KSCCebS1a6r1JoAH5HrkJZgUA=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "제임스 잉글리쉬 TV",
+          "description": ""
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "641530",
+        "subscriberCount": "7020",
+        "hiddenSubscriberCount": false,
+        "videoCount": "306"
+      }
+    }
+  ]
+}

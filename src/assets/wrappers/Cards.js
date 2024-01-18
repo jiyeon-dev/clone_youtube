@@ -175,6 +175,7 @@ export const VerticalCardInfo = styled.div`
       font-size: 14px;
       color: #606060;
       margin-bottom: 2px;
+      text-decoration: none;
     }
 
     .channel-name svg {

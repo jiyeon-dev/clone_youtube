@@ -20,6 +20,7 @@ import {
 } from '../../../utils/formatter';
 import VideoCommentList from './VideoCommentList';
 import VideoCommentHeader from './VideoCommentHeader';
+import SubscribeButton from '../../SubscribeButton';
 
 const WatchPrimary = ({ video }) => {
   // -- description 더보기
@@ -42,16 +43,22 @@ const WatchPrimary = ({ video }) => {
         <h1 id="title">{video.title}</h1>
         <MetaDataTopRow>
           <Owner>
-            <a className="avatar">
-              <img src={video.channel.img} alt={video.channel.title} />
+            <a className="avatar" href={`/${video.channel.customUrl}`}>
+              <img
+                src={video.channel.img}
+                alt={video.channel.title}
+                draggable={false}
+              />
             </a>
             <div className="channel-info">
-              <a id="channel-name">{video.channel.title}</a>
+              <a id="channel-name" href={`/${video.channel.customUrl}`}>
+                {video.channel.title}
+              </a>
               <span id="owner-sub-count">
                 구독자 {formatViewCount(video.channel.subscriberCount)}만명
               </span>
             </div>
-            <button id="subscribe">구독</button>
+            <SubscribeButton channelId={video.channel.id} />
           </Owner>
           <Actions>
             <button id="like" className="content">

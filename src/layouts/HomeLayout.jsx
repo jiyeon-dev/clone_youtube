@@ -20,6 +20,7 @@ const HomeLayout = () => {
           marginTop: 'var(--header-height)',
           display: 'flex',
           justifyContent: 'center',
+          flexDirection: 'column',
         }}
       >
         <Outlet />

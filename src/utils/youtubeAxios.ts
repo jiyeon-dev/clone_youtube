@@ -2,6 +2,7 @@ import axios, { AxiosError } from 'axios';
 import { SearchOption, YVideoDataList } from '../types/youtube';
 
 const isTestMode = import.meta.env.VITE_TEST_MODE || true;
+// const isTestMode = false;
 
 const BaseURL = isTestMode
   ? 'http://localhost:5173/data'
@@ -148,8 +149,31 @@ export const getChannels = async (params: SearchOption) => {
   };
 
   const newParams: SearchOption = Object.assign(defaultParams, params);
-  const response = await client.get(makeURL('/channels'), {
+  const url =
+    newParams.maxResults === 1 && isTestMode
+      ? makeURL('/channels-detail')
+      : makeURL('/channels'); // for test
+  const response = await client.get(url, {
     params: newParams,
   });
+  return response.data;
+};
+
+/**
+ * 채널 ID 조회를 위한 search
+ *
+ * @param customUrl 채널 URL
+ * @returns
+ */
+export const getChannelId = async (customUrl: string) => {
+  const channelName: string = customUrl.slice(1); // @제거
+  const params: object = {
+    part: 'snippet',
+    maxResults: 1,
+    q: channelName,
+    type: 'channel',
+  };
+
+  const response = await client.get(makeURL('/search'), { params });
   return response.data;
 };

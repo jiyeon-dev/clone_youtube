@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Channel from '../../components/Channel';
+import Channel from '../../components/Channels';
 import { useLocation } from 'react-router-dom';
 import { useInView } from 'react-intersection-observer';
 import { Target } from '../../assets/wrappers/Cards';

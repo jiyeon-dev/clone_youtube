@@ -105,4 +105,8 @@ $ npm run dev
   - [search.list](https://developers.google.com/youtube/v3/docs/search/list?hl=ko&apix_params=%7B%22part%22%3A%5B%22snippet%22%5D%2C%22maxResults%22%3A10%7D#apps-script)
 - Youtube IFrame Player API - [링크](https://developers.google.com/youtube/iframe_api_reference?hl=ko#Getting_Started)
 - ReactQuery (Tanstack) - [링크](https://tanstack.com/query/v4/docs/react/guides/infinite-queries)
+
   - ReactQuery 관련 설명 한글 블로그 - [링크](https://mycodings.fly.dev/blog/2023-09-24-react-query-paginated-query-and-infinite-query#1-%ED%8E%98%EC%9D%B4%EC%A7%80%EB%84%A4%EC%9D%B4%EC%85%98pagination-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
+
+- How to Create on Scroll Fixed / Sticky Navbar using HTML, CSS & JavaScript
+  - https://codepen.io/dsr/pen/vYLxadQ

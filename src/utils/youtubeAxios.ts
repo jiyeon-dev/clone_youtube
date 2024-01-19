@@ -177,3 +177,33 @@ export const getChannelId = async (customUrl: string) => {
   const response = await client.get(makeURL('/search'), { params });
   return response.data;
 };
+
+/**
+ * 재생목록(playlists) 조회
+ *
+ * @param params 검색 조건
+ * @returns
+ */
+export const getPlayList = async (params: SearchOption) => {
+  const defaultParams: SearchOption = {
+    part: 'snippet, contentDetails,status,player',
+    maxResults: 5,
+  };
+  const newParams: SearchOption = Object.assign(defaultParams, params);
+  const response = await client.get(makeURL('/playlists'), {
+    params: newParams,
+  });
+  return response.data;
+};
+
+export const getPlayListItems = async (params: SearchOption) => {
+  const defaultParams: SearchOption = {
+    part: 'snippet, contentDetails',
+    maxResults: 10,
+  };
+  const newParams: SearchOption = Object.assign(defaultParams, params);
+  const response = await client.get(makeURL('/playlistItems'), {
+    params: newParams,
+  });
+  return response.data;
+};

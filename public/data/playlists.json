@@ -1,0 +1,271 @@
+{
+  "kind": "youtube#playlistListResponse",
+  "etag": "EKsOO2qTu-HPVr6WTlyf9LNicO8",
+  "nextPageToken": "CAUQAA",
+  "pageInfo": {
+    "totalResults": 621,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#playlist",
+      "etag": "cRnp3o0vMD1O9IvCnsYXOhZUN74",
+      "id": "PLMf7VY8La5RFHmzGE-JGFQu1FPIXbN_tM",
+      "snippet": {
+        "publishedAt": "2024-01-12T06:32:10Z",
+        "channelId": "UC5BMQOsAB8hKUyHu9KI6yig",
+        "title": "The Seasons : Lee Hyori's Red Carpet Shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NlY0lK9JWsU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NlY0lK9JWsU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NlY0lK9JWsU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/NlY0lK9JWsU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/NlY0lK9JWsU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "KBS WORLD TV",
+        "localized": {
+          "title": "The Seasons : Lee Hyori's Red Carpet Shorts",
+          "description": ""
+        }
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "contentDetails": {
+        "itemCount": 3
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLMf7VY8La5RFHmzGE-JGFQu1FPIXbN_tM\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "-oGwW9ABs_4z7vLOKpJoNzzjWlQ",
+      "id": "PLMf7VY8La5RGAEzIYQKA87TDdSBj_SjuJ",
+      "snippet": {
+        "publishedAt": "2024-01-10T23:22:02Z",
+        "channelId": "UC5BMQOsAB8hKUyHu9KI6yig",
+        "title": "🔥HOTTEST PACK😆",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ieVnW8I9TdQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ieVnW8I9TdQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ieVnW8I9TdQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ieVnW8I9TdQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ieVnW8I9TdQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "KBS WORLD TV",
+        "localized": {
+          "title": "🔥HOTTEST PACK😆",
+          "description": ""
+        }
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "contentDetails": {
+        "itemCount": 5
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLMf7VY8La5RGAEzIYQKA87TDdSBj_SjuJ\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "JkU-1xChNXpmO-WeLM1Y6gXkcHU",
+      "id": "PLMf7VY8La5RFh2dxA2lbfLmlNNu_GgWRc",
+      "snippet": {
+        "publishedAt": "2024-01-05T06:23:06Z",
+        "channelId": "UC5BMQOsAB8hKUyHu9KI6yig",
+        "title": "Golden Girls Shorts | 골든 걸스 쇼츠",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fyhqKhlkCHE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fyhqKhlkCHE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fyhqKhlkCHE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/fyhqKhlkCHE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/fyhqKhlkCHE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "KBS WORLD TV",
+        "localized": {
+          "title": "Golden Girls Shorts | 골든 걸스 쇼츠",
+          "description": ""
+        }
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "contentDetails": {
+        "itemCount": 2
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLMf7VY8La5RFh2dxA2lbfLmlNNu_GgWRc\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "GaTJ2CAI_2E3-KjZ_l0ztSVaPhI",
+      "id": "PLMf7VY8La5RFxkFXtz8hSsy04KkAoQznG",
+      "snippet": {
+        "publishedAt": "2024-01-05T05:41:19Z",
+        "channelId": "UC5BMQOsAB8hKUyHu9KI6yig",
+        "title": "Golden Girls Highlights | 골든 걸스 하이라이트",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zU03BRjL5fs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zU03BRjL5fs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zU03BRjL5fs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zU03BRjL5fs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zU03BRjL5fs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "KBS WORLD TV",
+        "localized": {
+          "title": "Golden Girls Highlights | 골든 걸스 하이라이트",
+          "description": ""
+        }
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "contentDetails": {
+        "itemCount": 2
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLMf7VY8La5RFxkFXtz8hSsy04KkAoQznG\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "qOfuNGP2S-aF5afISREjUilDUn8",
+      "id": "PLMf7VY8La5RHdEk1mA9JZ6DZmawhp1u8n",
+      "snippet": {
+        "publishedAt": "2024-01-05T05:29:46Z",
+        "channelId": "UC5BMQOsAB8hKUyHu9KI6yig",
+        "title": "The Seasons : Lee Hyori's Red Carpet | 더 시즌즈 : 이효리의 레드카펫",
+        "description": "On Saturday night, when the end of one week meets the start of another, this show will bring you music and stories that will soothe your worries and concerns.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8fYjPGVPlxY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8fYjPGVPlxY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8fYjPGVPlxY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8fYjPGVPlxY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/8fYjPGVPlxY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "KBS WORLD TV",
+        "localized": {
+          "title": "The Seasons : Lee Hyori's Red Carpet | 더 시즌즈 : 이효리의 레드카펫",
+          "description": "On Saturday night, when the end of one week meets the start of another, this show will bring you music and stories that will soothe your worries and concerns."
+        }
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "contentDetails": {
+        "itemCount": 10
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLMf7VY8La5RHdEk1mA9JZ6DZmawhp1u8n\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
+      }
+    }
+  ]
+}

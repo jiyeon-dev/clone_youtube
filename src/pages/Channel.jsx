@@ -1,8 +1,8 @@
-import { Suspense, useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getChannelId, getChannels } from '../utils/youtubeAxios';
-import styled from 'styled-components';
 import ChannelHeader from '../components/Channel/Header';
+import ChannelHome from '../components/Channel/Home';
 
 const Channel = () => {
   const [channel, setChannel] = useState({});
@@ -41,36 +41,8 @@ const Channel = () => {
   return (
     <>
       <ChannelHeader channel={channel} />
-      <Content>
-        <div className="section section-2">Section 2</div>
-        <div className="section section-3">Section 3</div>
-        <div className="section section-4">Section 4</div>
-      </Content>
+      <ChannelHome channel={channel} />
     </>
   );
 };
 export default Channel;
-
-const Content = styled.div`
-  .section {
-    width: 100%;
-    height: 100vh;
-    font-size: 20px;
-    text-align: center;
-    line-height: 100vh;
-    color: #f5f5f5;
-  }
-  .section.section-1 {
-    position: relative;
-    background: #00acee;
-  }
-  .section.section-2 {
-    background: #d9b200;
-  }
-  .section.section-3 {
-    background: #222;
-  }
-  .section.section-4 {
-    background: orangered;
-  }
-`;

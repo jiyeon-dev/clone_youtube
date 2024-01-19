@@ -1,0 +1,20 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "XprCv02DQ1vvCZvBimSEz13-OEM",
+  "nextPageToken": "CAEQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 195,
+    "resultsPerPage": 1
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zi3KKecrDYeMw854E54DcibiT_U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CyqrAanjw9g"
+      }
+    }
+  ]
+}

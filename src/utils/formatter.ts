@@ -18,7 +18,7 @@ export const formatDuration = (duration: ISO8601): string => {
   const seconds = parseInt(matches[3]) || 0;
 
   // 시간, 분, 초를 두 자리 숫자로 포맷팅
-  const formattedHours = hours > 0 ? String(hours).padStart(2, '0') + ':' : '';
+  const formattedHours = hours > 0 ? String(hours) + ':' : '';
   const formattedMinutes = String(minutes).padStart(2, '0');
   const formattedSeconds = String(seconds).padStart(2, '0');
 

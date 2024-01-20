@@ -25,8 +25,6 @@ export default PlayList;
 const PlayListWrapper = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;
-
-  height: 200px;
   position: relative;
 `;
 
@@ -38,5 +36,5 @@ const ScrollContainerItems = styled.div`
   transition-duration: 0.15s;
   transition-timing-function: cubic-bezier(0.05, 0, 0, 1);
   white-space: nowrap;
-  margin-bottom: 15px;
+  margin-bottom: 24px;
 `;

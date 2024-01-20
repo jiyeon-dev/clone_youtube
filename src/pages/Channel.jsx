@@ -1,8 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getChannelId, getChannels } from '../utils/youtubeAxios';
 import ChannelHeader from '../components/Channel/Header';
 import ChannelHome from '../components/Channel/Home';
+import { createContext } from 'react';
+const ChannelContext = createContext();
+export const useChannelContext = () => useContext(ChannelContext);
 
 const Channel = () => {
   const [channel, setChannel] = useState({});
@@ -28,7 +31,7 @@ const Channel = () => {
         id: channelId,
       });
 
-      setChannel(response2.items[0]);
+      setChannel(response2?.items[0] || {});
     };
 
     getChannelInfo(customUrl);
@@ -39,10 +42,14 @@ const Channel = () => {
   }
 
   return (
-    <>
-      <ChannelHeader channel={channel} />
-      <ChannelHome channel={channel} />
-    </>
+    <ChannelContext.Provider value={channel}>
+      {Object.keys(channel).length !== 0 && (
+        <>
+          <ChannelHeader />
+          <ChannelHome />
+        </>
+      )}
+    </ChannelContext.Provider>
   );
 };
 export default Channel;

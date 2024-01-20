@@ -1,29 +1,23 @@
 import styled, { css } from 'styled-components';
-import { SlArrowLeft } from 'react-icons/sl';
 import Arrow from '../../../../assets/icons/Arrow.svg?react';
 
-const ArrowButton = ({ type }) => {
-  if (type === 'left') {
-    return (
-      <LeftArrowButton>
-        <Button>
-          <Arrow style={{ transform: 'rotate(90deg)' }} />
-        </Button>
-      </LeftArrowButton>
-    );
-  }
-
+const ArrowButton = ({ type, hide, fn }) => {
   return (
-    <RightArrowButton>
+    <ArrowButtonContainer
+      data-type={type}
+      className={hide && 'none'}
+      onClick={(e) => fn(type)}
+    >
       <Button>
-        <Arrow style={{ transform: 'rotate(-90deg)' }} />
+        {type === 'left' && <Arrow style={{ transform: 'rotate(90deg)' }} />}
+        {type === 'right' && <Arrow style={{ transform: 'rotate(-90deg)' }} />}
       </Button>
-    </RightArrowButton>
+    </ArrowButtonContainer>
   );
 };
 export default ArrowButton;
 
-const ArrowButtonStyle = css`
+const ArrowButtonContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,18 +26,16 @@ const ArrowButtonStyle = css`
   height: 118px;
   z-index: 1;
   width: 0;
-`;
 
-const LeftArrowButton = styled.div`
-  ${ArrowButtonStyle}
-  top: 0;
-  left: 0;
-`;
+  &[data-type='left'] {
+    top: 0;
+    left: 0;
+  }
 
-const RightArrowButton = styled.div`
-  ${ArrowButtonStyle}
-  top: 0;
-  right: 4px;
+  &[data-type='right'] {
+    top: 0;
+    right: 4px;
+  }
 `;
 
 const Button = styled.button`

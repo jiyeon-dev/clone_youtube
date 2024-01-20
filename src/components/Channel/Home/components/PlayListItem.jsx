@@ -5,12 +5,32 @@ import {
   formatViewCount,
   formatDate,
 } from '../../../../utils/formatter';
+import { useChannelContext } from '../../../../pages/Channel';
+import { useNavigate } from 'react-router-dom';
 
 const PlayListItem = ({ item }) => {
+  const navigate = useNavigate();
+  const channel = useChannelContext();
   const video = bindVideoInfo(item);
 
+  const handleClick = (e) => {
+    e.preventDefault();
+    if (e.target.tagName === 'A' || e.target.parentElement.tagName === 'A') {
+      const url = e.target.href || e.target.parentElement.href;
+      navigate(url);
+      // window.location.href = url;
+    } else {
+      const videoId = video.id;
+      if (videoId) {
+        navigate(`/watch?v=${videoId}`);
+      } else {
+        console.error('can not find video id');
+      }
+    }
+  };
+
   return (
-    <Item>
+    <Item onClick={(e) => handleClick(e)}>
       <Thumbnail>
         <img
           id="thumbnail"
@@ -24,7 +44,9 @@ const PlayListItem = ({ item }) => {
       <MetaData>
         <h3 id="title">{video.title}</h3>
 
-        <div id="channel-name">{video.channel.title}</div>
+        <a id="channel-name" href={`/${channel?.snippet?.customUrl}`}>
+          {video.channel.title}
+        </a>
         <div className="metadata-line">
           <div className="video-views">
             조회수 {formatViewCount(video.viewCount)}회

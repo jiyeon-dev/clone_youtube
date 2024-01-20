@@ -3,8 +3,10 @@ import { useGlobalContext } from '../../context';
 import styled from 'styled-components';
 import SubscribeButton from '../SubscribeButton';
 import { formatViewCount } from '../../utils/formatter';
+import { useChannelContext } from '../../pages/Channel';
 
-const Header = ({ channel }) => {
+const Header = () => {
+  const channel = useChannelContext();
   const stickyTab = useRef();
   const { isNavOpen } = useGlobalContext();
 
@@ -104,6 +106,7 @@ const ChannelInfo = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 `;
 
 const Avatar = styled.img`
@@ -233,7 +236,7 @@ const StickyToolbar = styled.div`
     left: 0px;
     bottom: initial;
     width: 100%;
-    z-index: 1;
+    z-index: 1000;
     background-color: #fff;
     margin-left: ${(props) =>
       props.isNavOpen === 'true'

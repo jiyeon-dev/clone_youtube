@@ -1,12 +1,13 @@
-import { Suspense, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import FirstSegment from './FirstSegment';
 import PlayListSegment from './PlayListSegment';
 import styled from 'styled-components';
 import { getPlayList } from '../../../utils/youtubeAxios';
+import { useChannelContext } from '../../../pages/Channel';
 
-const ChannelHome = ({ channel }) => {
+const ChannelHome = () => {
+  const channel = useChannelContext();
   const [playList, setPlayList] = useState([]);
-  const playListId = null;
 
   // 채널에 등록된 playlist 조회
   const getPlayLists = async () => {
@@ -20,7 +21,7 @@ const ChannelHome = ({ channel }) => {
 
   useEffect(() => {
     getPlayLists();
-  }, []);
+  }, [channel]);
 
   return (
     <Content>

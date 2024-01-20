@@ -110,4 +110,9 @@ $ npm run dev
   - ReactQuery 관련 설명 한글 블로그 - [링크](https://mycodings.fly.dev/blog/2023-09-24-react-query-paginated-query-and-infinite-query#1-%ED%8E%98%EC%9D%B4%EC%A7%80%EB%84%A4%EC%9D%B4%EC%85%98pagination-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
 
 - How to Create on Scroll Fixed / Sticky Navbar using HTML, CSS & JavaScript
+
   - https://codepen.io/dsr/pen/vYLxadQ
+
+- carousel
+  - https://www.codingnepalweb.com/draggable-card-slider-html-css-javascript/
+  - https://codepen.io/Nathan_James/pen/BvNLzO?editors=1010

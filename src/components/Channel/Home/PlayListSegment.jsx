@@ -5,6 +5,7 @@ import {
   getVideoInfoList,
 } from '../../../utils/youtubeAxios';
 import { useEffect, useState } from 'react';
+import PlayList from './components/PlayList';
 
 const PlayListSegment = ({ playListId, playListTitle }) => {
   const [firstVideoId, setFirstVideoId] = useState(null);
@@ -35,18 +36,10 @@ const PlayListSegment = ({ playListId, playListTitle }) => {
       <SubHeader videoId={firstVideoId} playListId={playListId}>
         {playListTitle}
       </SubHeader>
-      <PlayListContent>
-        {videoList.map((item) => (
-          <p>{item.id}</p>
-        ))}
-      </PlayListContent>
+      <PlayList videoList={videoList} />
     </Content>
   );
 };
 export default PlayListSegment;
 
 const Content = styled.div``;
-const PlayListContent = styled.div`
-  margin-top: 24px;
-  margin-bottom: 24px;
-`;

@@ -4,6 +4,7 @@ import { getChannelId, getChannels } from '../utils/youtubeAxios';
 import ChannelHeader from '../components/Channel/Header';
 import ChannelHome from '../components/Channel/Home';
 import ChannelVideo from '../components/Channel/Video';
+import ChannelLive from '../components/Channel/Live';
 import { createContext } from 'react';
 import { TAB } from '../components/Channel/StickyTab/index';
 
@@ -52,6 +53,7 @@ const Channel = () => {
           <ChannelHeader />
           {currentTab === 'home' && <ChannelHome />}
           {currentTab === 'video' && <ChannelVideo />}
+          {currentTab === 'live' && <ChannelLive />}
         </>
       )}
     </ChannelContext.Provider>

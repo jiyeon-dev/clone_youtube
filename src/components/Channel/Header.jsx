@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import SubscribeButton from '../SubscribeButton';
 import { formatViewCount } from '../../utils/formatter';
 import { useChannelContext } from '../../pages/Channel';
+import { gridMargin, gridPadding } from './styles';
 
 const Header = () => {
   const channel = useChannelContext();
@@ -21,7 +22,7 @@ const Header = () => {
   return (
     <ChannelHeader>
       <ChannelBanner
-        backgroundimage={`${channel?.brandingSettings?.image?.bannerExternalUrl}=w2120-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj`}
+        backgroundImage={`${channel?.brandingSettings?.image?.bannerExternalUrl}=w2120-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj`}
       >
         <div className="banner"></div>
       </ChannelBanner>
@@ -82,13 +83,11 @@ const ChannelHeader = styled.div`
 
 const ChannelBanner = styled.div`
   border-radius: 12px;
-  background-image: url(${(props) => props.backgroundimage});
+  background-image: url(${(props) => props.backgroundImage});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-  margin-left: calc(50% - 642px);
-  margin-right: calc(50% - 642px);
+  ${gridMargin}
 
   .banner {
     padding-top: 16.12%;
@@ -96,8 +95,6 @@ const ChannelBanner = styled.div`
 `;
 
 const ChannelInfo = styled.div`
-  padding-right: calc(50% - 642px);
-  padding-left: calc(50% - 642px);
   padding-top: 16px;
   padding-bottom: 4px;
   width: 100%;
@@ -106,7 +103,7 @@ const ChannelInfo = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  ${gridPadding}
 `;
 
 const Avatar = styled.img`

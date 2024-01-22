@@ -4,6 +4,7 @@ import PlayListSegment from './PlayListSegment';
 import styled from 'styled-components';
 import { getPlayList } from '../../../utils/youtubeAxios';
 import { useChannelContext } from '../../../pages/Channel';
+import { gridPadding } from '../styles';
 
 const ChannelHome = () => {
   const channel = useChannelContext();
@@ -40,8 +41,7 @@ export default ChannelHome;
 
 const Content = styled.div`
   min-height: calc(100vh - 120px);
-  padding-right: calc(50% - 642px);
-  padding-left: calc(50% - 642px);
+  ${gridPadding}
 
   & > div:not(:last-child) {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);

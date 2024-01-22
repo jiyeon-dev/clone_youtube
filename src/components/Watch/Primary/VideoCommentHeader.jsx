@@ -39,6 +39,7 @@ const VideoCommentHeader = ({ commentCount = 0 }) => {
 
       // dropdown 외부 클릭 시 닫기
       window.onclick = function (e) {
+        if (!dropdownContentRef.current) return;
         if (
           !e.target.matches('.dropdown-button') &&
           dropdownContentRef.current.classList.contains('show')

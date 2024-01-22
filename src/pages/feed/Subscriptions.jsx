@@ -2,7 +2,11 @@ import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import VerticalCardGrid from '../../components/Card/VerticalCardList/grid';
 import { getSubscriptions } from '../../utils/youtubeAxios';
+import { useLocation } from 'react-router-dom';
+
 const Subscriptions = () => {
+  const location = useLocation();
+  const queryKey = ['subscriptions-video-lists', location.key];
   const [channelIds, setChannelIds] = useState('');
 
   useEffect(() => {
@@ -25,7 +29,9 @@ const Subscriptions = () => {
         <h3>최신순</h3>
         <a href="/feed/channels">관리</a>
       </Contents>
-      {channelIds && <VerticalCardGrid channelIds={channelIds} />}
+      {channelIds && (
+        <VerticalCardGrid channelIds={channelIds} queryKey={queryKey} />
+      )}
     </Container>
   );
 };

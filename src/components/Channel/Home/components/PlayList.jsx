@@ -41,7 +41,12 @@ const PlayList = ({ videoList }) => {
 
   // videoList 데이터 값 전달 받은 경우
   useEffect(() => {
-    setScrollOption();
+    if (videoList.length > 0) {
+      setScrollOption();
+    } else {
+      setHideLeftBtn(true);
+      setHideRightBtn(true);
+    }
   }, [videoList, windowWidthSize]);
 
   // scroll option 값이 변경된 경우 -> 스크롤 재이동

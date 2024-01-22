@@ -7,7 +7,7 @@ import { useChannelContext } from '../../../pages/Channel';
 import { gridPadding } from '../styles';
 
 const ChannelHome = () => {
-  const channel = useChannelContext();
+  const { channel } = useChannelContext();
   const [playList, setPlayList] = useState([]);
 
   // 채널에 등록된 playlist 조회

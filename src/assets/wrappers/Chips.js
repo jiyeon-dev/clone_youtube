@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ChipsWrapper = styled.div`
   z-index: 2;
   display: flex;
-  position: ${(props) => props.position || 'relative'};
+  position: ${(props) => props.theme.position || 'relative'};
   justify-content: center;
   background-color: var(--white);
   /* height: 56px; */

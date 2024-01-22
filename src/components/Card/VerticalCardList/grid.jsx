@@ -2,15 +2,23 @@ import { useInView } from 'react-intersection-observer';
 import { useEffect, useMemo } from 'react';
 import { Target } from '../../../assets/wrappers/Cards';
 import { useFetchVideoList } from '../../../utils/query';
-import { useLocation } from 'react-router-dom';
 import VerticalCard from './VerticalCard';
 import Skeleton from './Skeleton';
 import styled from 'styled-components';
 
-const VerticalCardGrid = ({ channelIds }) => {
-  const location = useLocation();
-  const queryKey = ['subscriptions-video-lists', location.key, channelIds];
+const SEARCH_OPTION = {
+  part: 'snippet', // id,snippet,replies
+  type: 'video',
+  maxResults: 40,
+  // // 실제 youtube api 에서는 channelIds 를 리스트로 받을 수 없어서 가장 처음 채널만 검색하도록 함.
+  // channelId: channelIds.split(',')[0],
+};
 
+const VerticalCardGrid = ({
+  channelIds,
+  queryKey,
+  searchOption = SEARCH_OPTION,
+}) => {
   const { ref, inView } = useInView({
     threshold: 0,
     delay: 100,
@@ -18,13 +26,7 @@ const VerticalCardGrid = ({ channelIds }) => {
 
   const { data, hasNextPage, isFetching, fetchNextPage } = useFetchVideoList(
     queryKey,
-    {
-      part: 'snippet', // id,snippet,replies
-      type: 'video',
-      maxResults: 40,
-      // 실제 youtube api 에서는 channelIds 를 리스트로 받을 수 없어서 가장 처음 채널만 검색하도록 함.
-      channelId: channelIds.split(',')[0],
-    },
+    searchOption,
   );
 
   useEffect(() => {
@@ -48,7 +50,7 @@ const VerticalCardGrid = ({ channelIds }) => {
         <VerticalCard key={idx} item={item} />
       ))}
       {isFetching &&
-        Array(8)
+        Array(10)
           .fill(1)
           .map((el, i) => <Skeleton key={i} />)}
       <Target ref={ref}></Target>

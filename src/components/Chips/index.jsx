@@ -94,7 +94,7 @@ const Chips = ({
   };
 
   return (
-    <ChipsWrapper position={position}>
+    <ChipsWrapper theme={{ position }}>
       <ChipsContent width={width}>
         <div className="left-arrow none" ref={LeftArrow}>
           <button

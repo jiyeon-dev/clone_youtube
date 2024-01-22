@@ -3,12 +3,16 @@ import { useParams } from 'react-router-dom';
 import { getChannelId, getChannels } from '../utils/youtubeAxios';
 import ChannelHeader from '../components/Channel/Header';
 import ChannelHome from '../components/Channel/Home';
+import ChannelVideo from '../components/Channel/Video';
 import { createContext } from 'react';
+import { TAB } from '../components/Channel/StickyTab/index';
+
 const ChannelContext = createContext();
 export const useChannelContext = () => useContext(ChannelContext);
 
 const Channel = () => {
   const [channel, setChannel] = useState({});
+  const [currentTab, setCurrentTab] = useState(TAB[0]?.value);
   const customUrl = useParams().customUrl;
   if (!customUrl || !customUrl.startsWith('@')) {
     return <h3>채널 이름을 찾을 수 없습니다.</h3>;
@@ -42,11 +46,12 @@ const Channel = () => {
   }
 
   return (
-    <ChannelContext.Provider value={channel}>
+    <ChannelContext.Provider value={{ channel, currentTab, setCurrentTab }}>
       {Object.keys(channel).length !== 0 && (
         <>
           <ChannelHeader />
-          <ChannelHome />
+          {currentTab === 'home' && <ChannelHome />}
+          {currentTab === 'video' && <ChannelVideo />}
         </>
       )}
     </ChannelContext.Provider>

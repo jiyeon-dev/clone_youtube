@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
 
 const PlayListItem = ({ item }) => {
   const navigate = useNavigate();
-  const channel = useChannelContext();
+  const { channel } = useChannelContext();
   const video = bindVideoInfo(item);
 
   const handleClick = (e) => {

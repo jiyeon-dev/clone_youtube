@@ -12,7 +12,7 @@ const NavUser = () => {
         <CiBellOn size={28} />
       </button>
       <button className="btn avatar-btn">
-        <img width={32} height={32} alt="아바타" />
+        <img width={32} height={32} alt="" />
       </button>
     </NavUserWrapper>
   );

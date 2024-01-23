@@ -1,8 +1,7 @@
 import axios, { AxiosError } from 'axios';
 import { SearchOption, YVideoDataList } from '../types/youtube';
 
-const isTestMode = import.meta.env.VITE_TEST_MODE || true;
-// const isTestMode = false;
+const isTestMode = true;
 
 const BaseURL = isTestMode
   ? 'http://localhost:5173/data'
@@ -85,7 +84,9 @@ export const getCommentList = async (params: SearchOption) => {
     maxResults: 50,
   };
   const newParams: SearchOption = Object.assign(defaultParams, params);
-  const response = await client.get(makeURL('/commentThreads'), {
+  const url = makeURL('/commentThreads');
+  // const url = 'http://localhost:5173/data/commentThreads.json';
+  const response = await client.get(url, {
     params: newParams,
   });
   return response.data;
@@ -104,6 +105,7 @@ export const getReplyList = async (params: SearchOption) => {
   };
 
   const url = isTestMode ? makeURL('/replies') : makeURL('/commentThreads');
+  // const url = 'http://localhost:5173/data/replies.json';
   const newParams: SearchOption = Object.assign(defaultParams, params);
   const response = await client.get(url, {
     params: newParams,

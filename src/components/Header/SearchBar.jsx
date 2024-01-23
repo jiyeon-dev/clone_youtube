@@ -39,6 +39,7 @@ const SearchBar = () => {
           id="searchQuery"
           name="searchQuery"
           placeholder="검색"
+          autoComplete="false"
           value={searchQuery}
           onFocus={() => setIsFocus(true)}
           onBlur={() => setIsFocus(false)}

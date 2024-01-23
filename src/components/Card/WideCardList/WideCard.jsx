@@ -20,18 +20,18 @@ const WideCard = ({ item }) => {
   const { isYouTubeApiReady } = useGlobalContext();
   const videoRef = useRef();
   let player;
-  // useEffect(() => {
-  //   if (isYouTubeApiReady && videoRef.current)
-  //     player = new window.YT.Player(videoRef.current, {
-  //       videoId: video.id,
-  //       events: {
-  //         onStateChange: (event) => {
-  //           // 재생, 정지, 버퍼링등 영상 상태가 변경되면 호출됨.
-  //           // console.log(event.data);
-  //         },
-  //       },
-  //     });
-  // }, [videoRef, isYouTubeApiReady]);
+  useEffect(() => {
+    if (isYouTubeApiReady && videoRef.current)
+      player = new window.YT.Player(videoRef.current, {
+        videoId: video.id,
+        events: {
+          onStateChange: (event) => {
+            // 재생, 정지, 버퍼링등 영상 상태가 변경되면 호출됨.
+            // console.log(event.data);
+          },
+        },
+      });
+  }, [videoRef, isYouTubeApiReady]);
   function handleMouseOver() {
     try {
       if (player) player.playVideo();

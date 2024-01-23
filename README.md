@@ -120,3 +120,25 @@ $ npm run dev
 - carousel
   - https://www.codingnepalweb.com/draggable-card-slider-html-css-javascript/
   - https://codepen.io/Nathan_James/pen/BvNLzO?editors=1010
+
+## 결과 화면
+
+### 메인 화면
+
+![new_main](https://github.com/jiyeon-dev/clone_youtube/assets/65294323/5e02fe1a-420a-462f-a5e9-a9a8deb5a241)
+
+### 채널 화면
+
+![new_channel](https://github.com/jiyeon-dev/clone_youtube/assets/65294323/94c30223-ae30-47e1-84ab-422b750e8e1e)
+
+### 비디오 화면
+
+![new_video](https://github.com/jiyeon-dev/clone_youtube/assets/65294323/7671ff09-b793-49bc-ae96-4b3e755af3a9)
+
+### 구독 화면
+
+![new_subscribe](https://github.com/jiyeon-dev/clone_youtube/assets/65294323/e48a945f-a8c4-4ae5-aa25-c3a552897ef0)
+
+### 검색 화면
+
+![new_search](https://github.com/jiyeon-dev/clone_youtube/assets/65294323/113cd389-3799-4333-9018-a27d0a37a821)

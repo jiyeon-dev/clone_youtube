@@ -132,7 +132,7 @@ export const NavUserWrapper = styled.div`
     height: 40px;
   }
 
-  button.avatar-btn {
+  button.avatar-btn img {
     background-color: burlywood; /* sample */
     padding: 1px 6px;
     margin: 0 8px;
